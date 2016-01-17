@@ -83,7 +83,7 @@ namespace TranslationsSite.Resources.HowDoWeWork {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Our compromise is to deliver translated assignments with the high standard of quality and always considering our clients’ urgency. To accomplish this, we work with qualified and specialised linguists. In addition, if any translated document does not fulfill our client’s expectation, &lt;strong&gt;CHECK THIS &lt;/strong&gt;we will provide a revision and a version free of charge to satisfy our clients’ needs (conditions and terms are stipulated from the start.).
+        ///   Looks up a localized string similar to Our compromise is to deliver translated assignments with the high standard of quality and always considering our clients’ urgency. To accomplish this, we work with qualified and specialised linguists. In addition, if any translated document does not fulfill our client’s expectation, we will provide a revision and a version free of charge to satisfy our clients’ needs (conditions and terms are stipulated from the start.).
         /// </summary>
         public static string Guarantees_Description {
             get {
