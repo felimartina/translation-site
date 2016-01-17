@@ -1,0 +1,184 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="NataliaDominguez_Description" xml:space="preserve">
+    <value>Soy Natalia Domínguez, una apasionada por mi profesión. Traduzco exclusivamente del inglés al español, mi lengua materna, y realizo traducciones para los siguientes sectores: finanzas, informática, ciencias sociales y medicina. La mayor parte de los proyectos en los que he trabajado pertenecen a los siguientes campos: finanzas (documentos financieros); periodismo (diferentes artículos de noticias); textos generales relacionados a la medicina (documentos de seguros de salud, guías médicas, etc.); temas relacionados a la tecnología tales como manuales y guías para distintos tipos de dispositivos.
+Durante el transcurso del año pasado y  hasta el presente, he colaborado como traductora voluntaria para GlobalVoices (un sitio web de noticias internacionales). Además, he estado ejerciendo como Profesora de Inglés en todos los niveles a lo largo de estos dos últimos años.
+El trabajo dedicado, enfocado e innovador es mi filosofía. Así como también, me esfuerzo por mejorar mediante la capacitación y el estudio constante. Como emprendedores, mis colegas y yo hemos creado nuestra agencia en la cual la comunicación efectiva es nuestro propósito y nos enfocamos en prestar servicios de traducción eficientes. Como lingüistas meticulosos creemos que la calidad es de suma importancia en el mundo de la traducción y que finalizar los encargos a tiempo es una parte esencial de nuestro campo.</value>
+  </data>
+  <data name="NataliaDominguez_LinkedinUri" xml:space="preserve">
+    <value>http://www.linkedin.com</value>
+  </data>
+  <data name="NataliaDominguez_Name" xml:space="preserve">
+    <value>Natalia Domínguez</value>
+  </data>
+  <data name="NataliaDominguez_Title" xml:space="preserve">
+    <value>Traductora de Ingles</value>
+  </data>
+  <data name="OurTeam_Header" xml:space="preserve">
+    <value>Nuestro Equipo</value>
+  </data>
+  <data name="RominaCastagno_Description" xml:space="preserve">
+    <value>Romina Castagno es una traductora profesional quien brinda servicios de traducción de documentos de inglés a español.
+Trabaja con áreas de especialidades variadas y un amplio rango de industrias: energía (aceite, gas y energía alternativa), negocios, software, medio ambiente, literatura, moda, aplicaciones de juegos y mucho más. 
+Realizó ediciones, post ediciones (estilo, gramática y ortografía) de traducciones para compañías localizadas en India, Estados Unidos, Europa y Argentina. 
+Su trabajo consiste en operar con plataformas y herramientas que provee la misma empresa, por ejemplo, Trados, Trados Studios 2009, Wordfast y las enviadas/creadas por los mismos clientes.
+Se compromete a realizar un trabajo rápido y confiable junto a su equipo que posee el mismo nivel y competencia que ella.
+Romina ha vivido y viajado a los Estados Unidos durante muchos años para estudiar y trabajar. Uno de sus mas recientes clientes para el cual se encuentra trabajando es la Farmacopea en Washington DC.
+Sus experiencias de viajes la ayudaron a emerger en el uso de la cultura e idioma real, por lo tanto cuenta con las habilidades linguísticas necesarias para resolver sus necesidades de comunicación, gracias a sus años de experiencia profesional y a su perfecto dominio del idioma eta y fuente.</value>
+  </data>
+  <data name="RominaCastagno_LinkedinUri" xml:space="preserve">
+    <value>https://www.linkedin.com/in/romina-castagno-55834348</value>
+  </data>
+  <data name="RominaCastagno_Name" xml:space="preserve">
+    <value>Romina Castagno</value>
+  </data>
+  <data name="RominaCastagno_Title" xml:space="preserve">
+    <value>Traductora de Ingles</value>
+  </data>
+  <data name="VaninaFassi_Description" xml:space="preserve">
+    <value>Vanina Fassi es una traductora profesional de inglés&gt;español especializada en medicina, cuidados de la salud, farmacología y psicología.
+Investigar y descubrir sobre diferentes temas la impulsa a mejorar de manera continua su conocimiento de la industria de la traducción. Ha traducido y editado para diferentes empresas dentro de varios campos, como deportes, periodismo, moda, por nombrar algunos.
+La construcción de una relación a largo plazo con los clientes es esencial para ella, por lo que se compromete a satisfacer las necesidades de los clientes proporcionándoles traducciones precisas y de alta calidad. Además, una actitud activa y entusiasta le permite cumplir con la fecha de entrega acordada y trabajar con una comunicación abierta y permanente.
+Trabajar como coordinadora de proyectos le brindó la oportunidad de coordinar y supervisar el trabajo de otros lingüistas; por lo tanto, conoce todas las etapas involucradas en el proceso de traducción. Su interés incesante para alcanzar y superar las expectativas del cliente la convierten en una profesional dedicada y enfocada en la finalización exitosa de cada proyecto.
+La enseñanza es otra parte importante de sus intereses, por lo que enseña inglés a alumnos de todos los niveles y también ofrece cursos de lectocomprensión para estudiantes universitarios.
+Debido a su gran pasión por el idioma desafía constantemente sus límites y se esfuerza por crecer tanto profesional como personalmente.</value>
+  </data>
+  <data name="VaninaFassi_LinkedinUri" xml:space="preserve">
+    <value>http://www.linkedin.com</value>
+  </data>
+  <data name="VaninaFassi_Name" xml:space="preserve">
+    <value>Vanina Fassi</value>
+  </data>
+  <data name="VaninaFassi_Title" xml:space="preserve">
+    <value>Traductora de Ingles</value>
+  </data>
+  <data name="WhoAreWe_Description" xml:space="preserve">
+    <value>Somos conscientes de la importancia de la comunicación de mensajes de una cultura a otra. Por eso, nuestro trabajo es que sea simple, divertido y económico para usted.
+&lt;br&gt;
+&lt;strong&gt;Re-Make Translations&lt;/strong&gt; se desarrolló en una premisa simple de negocios para llevar a cabo servicios de traducción profesionales. Ofrecemos múltiples niveles de servicios basados en las necesidades de nuestros clientes, desde traducciones de borradores/resumen hasta traducciones certificadas a través de nuestro proceso triple de traductor, editor y post editor, los cuales cuentan con los estándares de negocios globales.
+Dentro de los proyectos, podemos encontrar libros, novelas gráficas, folletos, manuales, noticias, contratos, patentes, archivos de ayuda, copia de anuncios comerciales, copia de paquetes, etiquetas, sitios web y cartel web multilingüe.
+&lt;br&gt;
+Debido a la confianza de nuestra compañía, los textos son emparejados con el traductor que se especialice en un tema específico con sus conocimientos necesarios y respectivos del tema.
+Garantizamos precios competitivos junto con un servicio de primera clase; por eso, cuando sea requerido, enviaremos un presupuesto detallado que incluya el costo total y con el cual quede satisfecho y no impactado.</value>
+  </data>
+  <data name="WhoAreWe_Header" xml:space="preserve">
+    <value>Quienes Somos?</value>
+  </data>
+</root>

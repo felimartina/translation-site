@@ -1,0 +1,184 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="NataliaDominguez_Description" xml:space="preserve">
+    <value>I am Natalia Domínguez and I am enthusiastic about my profession. I exclusively translate from English into Spanish —my mother tongue— and I provide translation services for Business, Finance, IT, Social and Medical Science sectors. Most part of my projects came from the following fields: Finance (financial documents); Journalism (different pieces of news and articles); general texts concerning Medical topics (health insurance documents, medical guides, etc); Technology issues such as manuals and guidelines for different devices.
+During the course of the last year so far, I have been collaborating as a volunteer translator for GlobalVoices (an international news website). In addition, I have been working as an English teacher at all levels for the last two years.
+My philosophy is derived through dedicated, focused and innovative work. As well as I strive for improving by constant training and studying. 
+As self-motivated professionals, me and my colleagues have set up our enterprise where effective communication is our purpose, and our approach is to focus on delivering efficient language services. We believe, as detail- oriented linguists, that quality is paramount in the world of translation, and finishing translation assignments on time is an essential part of it.</value>
+  </data>
+  <data name="NataliaDominguez_LinkedinUri" xml:space="preserve">
+    <value>http://www.linkedin.com</value>
+  </data>
+  <data name="NataliaDominguez_Name" xml:space="preserve">
+    <value>Natalia Domínguez</value>
+  </data>
+  <data name="NataliaDominguez_Title" xml:space="preserve">
+    <value>English Translator</value>
+  </data>
+  <data name="OurTeam_Header" xml:space="preserve">
+    <value>Our Team</value>
+  </data>
+  <data name="RominaCastagno_Description" xml:space="preserve">
+    <value>Romina Castagno is a professional-grade human translator who provides document translation services from English into Spanish.
+She works with several specialization areas and a wide range of industries: Energy (oil, gas and alternative energy), Business, Software, Environment, Literature, Fashion, Games applications, among others. 
+She has done edition and proofreading (style, grammar, spelling) of translations for companies in India, USA, Europe, and Argentina. 
+Her tasks consists in working with platforms and tools provided by the agency itself, like Trados, Trados Studios 2009, Wordfast and the ones sent/created by clients.
+She ensures a fast and trustful work done with coworkers of the same working and competence level than her.
+Romina has been living and traveling to the US for many years to study and work. One of the most recent clients she is working for is the Pharmacopeia in Washington DC.
+Her traveling experiences helped her to be immersed into the real culture and language usage so she counts on the linguistic skills and abilities necessary to solve your communication needs, thanks to all her years of professional experience and perfect command of the target and source language.</value>
+  </data>
+  <data name="RominaCastagno_LinkedinUri" xml:space="preserve">
+    <value>https://ar.linkedin.com/in/romina-castagno-55834348/en</value>
+  </data>
+  <data name="RominaCastagno_Name" xml:space="preserve">
+    <value>Romina Castagno</value>
+  </data>
+  <data name="RominaCastagno_Title" xml:space="preserve">
+    <value>English Translator</value>
+  </data>
+  <data name="VaninaFassi_Description" xml:space="preserve">
+    <value>Vanina Fassi is a professional English-Spanish translator specializing in Medicine, Health Care, Pharmaceutical, and Psychology.
+Investigating and discovering about different subjects drives her to continually improve his knowledge of the translation industry. She has translated and edited for many different companies within several fields, such as sports, journalism, fashion, to name a few.
+Building long-term client relationship is essential for her, thus she commits herself to satisfying the clients’ requirements by providing them with accurate and high-quality translations. Besides, an active and enthusiastic attitude allows her to meet the agreed delivery date and work with an open and permanent communication.
+Having worked as a Project Manager gave her the opportunity to coordinate and monitor other linguists’ work; thereby, she is aware of all the stages involved in the process of translation. Her incessant concern to achieve and exceed client expectations makes her a devoted professional focused on the successful completion of every project.
+Teaching is another important part of her interests, which is why she teaches English to students of all levels and she also offers training courses in reading-comprehension for undergraduate students.
+Because of her great passion for the language she is constantly challenging her limits and striving to grow both professionally and personally.</value>
+  </data>
+  <data name="VaninaFassi_LinkedinUri" xml:space="preserve">
+    <value>http://www.linkedin.com</value>
+  </data>
+  <data name="VaninaFassi_Name" xml:space="preserve">
+    <value>Vanina Fassi</value>
+  </data>
+  <data name="VaninaFassi_Title" xml:space="preserve">
+    <value>English Translator</value>
+  </data>
+  <data name="WhoAreWe_Description" xml:space="preserve">
+    <value>We know the importance of communicating messages from culture to culture. That is why our job is to make it simple, fun and inexpensive for you.
+&lt;br&gt;
+&lt;strong&gt;Re-Make Translations&lt;/strong&gt; was founded on a simple business premise to complete professional translation services. We offer multiple levels of service based on client needs, ranging from draft/summary translation up to certified translation, featuring our three-step process with a translator, editor, and proofreader, all designed to meet the evolving needs of global businesses.
+Regular projects include books, graphic novels, brochures, manuals, newsletters, contracts, patents, help files, ad copy, package copy, labels, websites, and multilingual web banners.
+&lt;br&gt;
+As a trustful company, we carefully pair your text to a translator with the appropriate subject matter expertise and background. Competitive Prices and First Class Service, which is our promise to you. In fact, when required, we will send you a detailed quote including a full cost breakdown so you will be delighted by our bills, not shocked.</value>
+  </data>
+  <data name="WhoAreWe_Header" xml:space="preserve">
+    <value>Who Are We?</value>
+  </data>
+</root>

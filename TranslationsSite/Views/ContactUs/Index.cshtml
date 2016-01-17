@@ -1,0 +1,29 @@
+﻿@{
+    ViewBag.Title = "Contact Us";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="row">
+    <div class="col-lg-12">
+        <h1 class="page-header">
+            @Html.Raw(@TranslationsSite.Resources.HowDoWeWork.Index.HowDoWeWork_Header)
+        </h1>
+        <ol class="breadcrumb">
+            <li>
+                <a href="@Url.Action("Index", "Home")">Home</a>
+            </li>
+            <li class="active">@TranslationsSite.Resources.ContactUs.Index.ContactUs_Header</li>
+        </ol>
+    </div>
+    <div class="col-md-12">
+        <div class="well lead">
+            <p>@Html.Raw(@TranslationsSite.Resources.HowDoWeWork.Index.HowDoWeWork_Description)</p>
+            <h3><strong>@Html.Raw(@TranslationsSite.Resources.HowDoWeWork.Index.Services_Header)</strong></h3>
+            <p>@Html.Raw(@TranslationsSite.Resources.HowDoWeWork.Index.Services_Description)</p>
+            <h3><strong>@Html.Raw(@TranslationsSite.Resources.HowDoWeWork.Index.Guarantees_Header)</strong></h3>
+            <p>@Html.Raw(@TranslationsSite.Resources.HowDoWeWork.Index.Guarantees_Description)</p>
+            <h3><strong>@Html.Raw(@TranslationsSite.Resources.HowDoWeWork.Index.Confidentiality_Header)</strong></h3>
+            <p>@Html.Raw(@TranslationsSite.Resources.HowDoWeWork.Index.Confidentiality_Description)</p>
+        </div>
+    </div>
+</div>

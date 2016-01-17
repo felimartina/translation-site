@@ -1,0 +1,137 @@
+﻿@{
+    ViewBag.Title = "About Us";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="row">
+    <div class="col-lg-12">
+        <h1 class="page-header">
+            @Html.Raw(@TranslationsSite.Resources.WhoAreWe.Index.WhoAreWe_Header)
+        </h1>
+        <ol class="breadcrumb">
+            <li>
+                <a href="@Url.Action("Index", "Home")">Home</a>
+            </li>
+            <li class="active">@TranslationsSite.Resources.WhoAreWe.Index.WhoAreWe_Header</li>
+        </ol>
+    </div>
+    <div class="col-md-12">
+        <div class="row">
+            <div class="col-md-6">
+                <img class="img-responsive" src="http://placehold.it/750x450" alt="Logo HERE">
+            </div>
+            <div class="col-md-6">
+                <h2><strong>@Html.Raw(@TranslationsSite.Resources.Shared.General.CompanyName)</strong></h2>
+                <p>@Html.Raw(TranslationsSite.Resources.WhoAreWe.Index.WhoAreWe_Description)</p>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Team Members -->
+<div class="row">
+    <div class="col-lg-12">
+        <h2 class="page-header">@Html.Raw(@TranslationsSite.Resources.WhoAreWe.Index.OurTeam_Header)</h2>
+    </div>
+    <div class="col-md-4 text-center">
+        <div class="thumbnail">
+            <img class="img-responsive" src="/Images/profile-romina-castagno.jpg" alt="">
+            <div class="caption">
+                <h3>@Html.Raw(@TranslationsSite.Resources.WhoAreWe.Index.RominaCastagno_Name)<br>
+                    <small>@Html.Raw(@TranslationsSite.Resources.WhoAreWe.Index.RominaCastagno_Title)</small>
+                </h3>
+                <p>@Html.Raw(@TranslationsSite.Resources.WhoAreWe.Index.RominaCastagno_Description)</p>
+                <ul class="list-inline">
+                    @*<li>
+                        <a href="@TranslationsSite.Resources.WhoAreWe.Index.RominaCastagno_FacebookUri" target="_blank"><i class="fa fa-2x fa-facebook-square"></i></a>
+                    </li>*@
+                    <li>
+                        <a href="@TranslationsSite.Resources.WhoAreWe.Index.RominaCastagno_LinkedinUri" target="_blank"><i class="fa fa-2x fa-linkedin-square"></i></a>
+                    </li>
+                    @*<li>
+                        <a href="@TranslationsSite.Resources.WhoAreWe.Index.RominaCastagno_LinkedinUri" target="_blank"><i class="fa fa-2x fa-twitter-square"></i></a>
+                    </li>*@
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-4 text-center">
+        <div class="thumbnail">
+            <img class="img-responsive" src="http://placehold.it/750x450" alt="">
+            <div class="caption">
+                <h3>
+                    @Html.Raw(@TranslationsSite.Resources.WhoAreWe.Index.NataliaDominguez_Name)<br>
+                    <small>@Html.Raw(@TranslationsSite.Resources.WhoAreWe.Index.NataliaDominguez_Title)</small>
+                </h3>
+                <p>@Html.Raw(@TranslationsSite.Resources.WhoAreWe.Index.NataliaDominguez_Description)</p>
+                <ul class="list-inline">
+                    @*<li>
+                        <a href="@TranslationsSite.Resources.WhoAreWe.Index.NataliaDominguez_FacebookUri" target="_blank"><i class="fa fa-2x fa-facebook-square"></i></a>
+                    </li>*@
+                    <li>
+                        <a href="@TranslationsSite.Resources.WhoAreWe.Index.NataliaDominguez_LinkedinUri" target="_blank"><i class="fa fa-2x fa-linkedin-square"></i></a>
+                    </li>
+                    @*<li>
+                        <a href="@TranslationsSite.Resources.WhoAreWe.Index.NataliaDominguez_LinkedinUri" target="_blank"><i class="fa fa-2x fa-twitter-square"></i></a>
+                    </li>*@
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-4 text-center">
+        <div class="thumbnail">
+            <img class="img-responsive" src="http://placehold.it/750x450" alt="">
+            <div class="caption">
+                <h3>
+                    @Html.Raw(@TranslationsSite.Resources.WhoAreWe.Index.VaninaFassi_Name)<br>
+                    <small>@Html.Raw(@TranslationsSite.Resources.WhoAreWe.Index.VaninaFassi_Title)</small>
+                </h3>
+                <p>@Html.Raw(@TranslationsSite.Resources.WhoAreWe.Index.VaninaFassi_Description)</p>
+                <ul class="list-inline">
+                    @*<li>
+                        <a href="@TranslationsSite.Resources.WhoAreWe.Index.VaninaFassi_FacebookUri" target="_blank"><i class="fa fa-2x fa-facebook-square"></i></a>
+                    </li>*@
+                    <li>
+                        <a href="@TranslationsSite.Resources.WhoAreWe.Index.VaninaFassi_LinkedinUri" target="_blank"><i class="fa fa-2x fa-linkedin-square"></i></a>
+                    </li>
+                    @*<li>
+                        <a href="@TranslationsSite.Resources.WhoAreWe.Index.VaninaFassi_LinkedinUri" target="_blank"><i class="fa fa-2x fa-twitter-square"></i></a>
+                    </li>*@
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- /.row -->
+<!-- Our Customers -->
+@*<div class="row">
+    <div class="col-lg-12">
+        <h2 class="page-header">Our Customers</h2>
+    </div>
+    <div class="col-md-2 col-sm-4 col-xs-6">
+        <img class="img-responsive customer-img" src="http://placehold.it/500x300" alt="">
+    </div>
+    <div class="col-md-2 col-sm-4 col-xs-6">
+        <img class="img-responsive customer-img" src="http://placehold.it/500x300" alt="">
+    </div>
+    <div class="col-md-2 col-sm-4 col-xs-6">
+        <img class="img-responsive customer-img" src="http://placehold.it/500x300" alt="">
+    </div>
+    <div class="col-md-2 col-sm-4 col-xs-6">
+        <img class="img-responsive customer-img" src="http://placehold.it/500x300" alt="">
+    </div>
+    <div class="col-md-2 col-sm-4 col-xs-6">
+        <img class="img-responsive customer-img" src="http://placehold.it/500x300" alt="">
+    </div>
+    <div class="col-md-2 col-sm-4 col-xs-6">
+        <img class="img-responsive customer-img" src="http://placehold.it/500x300" alt="">
+    </div>
+</div>*@
+<!-- /.row -->
+<!-- Footer -->
+<footer>
+    <div class="row">
+        <div class="col-lg-12">
+            <p>Copyright &copy; Your Website 2014</p>
+        </div>
+    </div>
+</footer>
