@@ -6,7 +6,7 @@
 <div class="row">
     <div class="col-lg-12">
         <h1 class="page-header">
-            @Html.Raw(@TranslationsSite.Resources.HowDoWeWork.Index.HowDoWeWork_Header)
+            @Html.Raw(@TranslationsSite.Resources.ContactUs.Index.ContactUs_Header)
         </h1>
         <ol class="breadcrumb">
             <li>
@@ -15,15 +15,81 @@
             <li class="active">@TranslationsSite.Resources.ContactUs.Index.ContactUs_Header</li>
         </ol>
     </div>
-    <div class="col-md-12">
-        <div class="well lead">
-            <p>@Html.Raw(@TranslationsSite.Resources.HowDoWeWork.Index.HowDoWeWork_Description)</p>
-            <h3><strong>@Html.Raw(@TranslationsSite.Resources.HowDoWeWork.Index.Services_Header)</strong></h3>
-            <p>@Html.Raw(@TranslationsSite.Resources.HowDoWeWork.Index.Services_Description)</p>
-            <h3><strong>@Html.Raw(@TranslationsSite.Resources.HowDoWeWork.Index.Guarantees_Header)</strong></h3>
-            <p>@Html.Raw(@TranslationsSite.Resources.HowDoWeWork.Index.Guarantees_Description)</p>
-            <h3><strong>@Html.Raw(@TranslationsSite.Resources.HowDoWeWork.Index.Confidentiality_Header)</strong></h3>
-            <p>@Html.Raw(@TranslationsSite.Resources.HowDoWeWork.Index.Confidentiality_Description)</p>
-        </div>
+</div>
+<div class="row">
+    <div class="col-md-8">
+        <h3>@TranslationsSite.Resources.ContactUs.Index.Form_Header</h3>
+        <form name="sentMessage" id="contactForm" novalidate="">
+            <div class="control-group form-group">
+                <div class="controls">
+                    <label>@TranslationsSite.Resources.ContactUs.Index.Form_Name</label>
+                    <input type="text" class="form-control" id="name" required="" data-validation-required-message="@TranslationsSite.Resources.ContactUs.Index.Form_Name_Error_Required">
+                    <p class="help-block"></p>
+                </div>
+            </div>
+            <div class="control-group form-group">
+                <div class="controls">
+                    <label>@TranslationsSite.Resources.ContactUs.Index.Form_Phone</label>
+                    <input type="tel" class="form-control" id="phone" required="" data-validation-required-message="@TranslationsSite.Resources.ContactUs.Index.Form_Phone_Error_Required">
+                    <div class="help-block"></div>
+                </div>
+            </div>
+            <div class="control-group form-group">
+                <div class="controls">
+                    <label>@TranslationsSite.Resources.ContactUs.Index.Form_Email</label>
+                    <input type="email" class="form-control" id="email" required="" data-validation-required-message="@TranslationsSite.Resources.ContactUs.Index.Form_Email_Error_Required">
+                    <div class="help-block"></div>
+                </div>
+            </div>
+            <div class="control-group form-group">
+                <div class="controls">
+                    <label>@TranslationsSite.Resources.ContactUs.Index.Form_Message</label>
+                    <textarea rows="10" cols="100" class="form-control" id="message" required="" data-validation-required-message="@TranslationsSite.Resources.ContactUs.Index.Form_Message_Error_Required" maxlength="999" style="resize:none"></textarea>
+                    <div class="help-block"></div>
+                </div>
+            </div>
+            <div id="success" class="alert alert-success hidden">@TranslationsSite.Resources.ContactUs.Index.Form_Submit_Success</div>
+            <div id="fail" class="alert alert-danger hidden">@TranslationsSite.Resources.ContactUs.Index.Form_Submit_Error</div>
+            <!-- For success/fail messages -->
+            <button type="submit" class="btn btn-primary">@TranslationsSite.Resources.ContactUs.Index.Form_Submit</button>
+        </form>
+    </div>
+    <div class="col-md-4">
+        <h3>@TranslationsSite.Resources.ContactUs.Index.ContactDetails</h3>
+        @*<p>
+            3481 Melrose Place<br>Beverly Hills, CA 90210<br>
+        </p>*@
+        <p>
+            <i class="fa fa-phone"></i>
+            @*<abbr title="Phone">P</abbr>*@: @TranslationsSite.Resources.ContactUs.Index.ContactDetails_Phone
+        </p>
+        <p>
+            <i class="fa fa-envelope-o"></i>
+            @*<abbr title="Email">E</abbr>*@: <a href="mailto:@TranslationsSite.Resources.ContactUs.Index.ContactDetails_Email">@TranslationsSite.Resources.ContactUs.Index.ContactDetails_Email</a>
+        </p>
+        <p>
+            <i class="fa fa-clock-o"></i>
+            @*<abbr title="Hours">H</abbr>*@: @TranslationsSite.Resources.ContactUs.Index.ContactDetails_WorkingHours
+        </p>
+        @*<ul class="list-unstyled list-inline list-social-icons">
+            <li>
+                <a href="#"><i class="fa fa-facebook-square fa-2x"></i></a>
+            </li>
+            <li>
+                <a href="#"><i class="fa fa-linkedin-square fa-2x"></i></a>
+            </li>
+            <li>
+                <a href="#"><i class="fa fa-twitter-square fa-2x"></i></a>
+            </li>
+            <li>
+                <a href="#"><i class="fa fa-google-plus-square fa-2x"></i></a>
+            </li>
+        </ul>*@
     </div>
 </div>
+
+@section PageScripts
+{
+    <script src="~/Scripts/jqBootstrapValidation.js"></script>
+    <script src="~/Scripts/contact_me.js"></script>
+}

@@ -61,11 +61,155 @@ namespace TranslationsSite.Resources.ContactUs {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Contact Details.
+        /// </summary>
+        public static string ContactDetails {
+            get {
+                return ResourceManager.GetString("ContactDetails", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to user@outlook.com.
+        /// </summary>
+        public static string ContactDetails_Email {
+            get {
+                return ResourceManager.GetString("ContactDetails_Email", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to (111) 123-1234.
+        /// </summary>
+        public static string ContactDetails_Phone {
+            get {
+                return ResourceManager.GetString("ContactDetails_Phone", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 24/7.
+        /// </summary>
+        public static string ContactDetails_WorkingHours {
+            get {
+                return ResourceManager.GetString("ContactDetails_WorkingHours", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Contact Us.
         /// </summary>
         public static string ContactUs_Header {
             get {
                 return ResourceManager.GetString("ContactUs_Header", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Email Address:.
+        /// </summary>
+        public static string Form_Email {
+            get {
+                return ResourceManager.GetString("Form_Email", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Please enter your email address..
+        /// </summary>
+        public static string Form_Email_Error_Required {
+            get {
+                return ResourceManager.GetString("Form_Email_Error_Required", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Send us a Message.
+        /// </summary>
+        public static string Form_Header {
+            get {
+                return ResourceManager.GetString("Form_Header", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Message:.
+        /// </summary>
+        public static string Form_Message {
+            get {
+                return ResourceManager.GetString("Form_Message", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Please enter your message..
+        /// </summary>
+        public static string Form_Message_Error_Required {
+            get {
+                return ResourceManager.GetString("Form_Message_Error_Required", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Full Name:.
+        /// </summary>
+        public static string Form_Name {
+            get {
+                return ResourceManager.GetString("Form_Name", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Please enter your name..
+        /// </summary>
+        public static string Form_Name_Error_Required {
+            get {
+                return ResourceManager.GetString("Form_Name_Error_Required", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Phone Number:.
+        /// </summary>
+        public static string Form_Phone {
+            get {
+                return ResourceManager.GetString("Form_Phone", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Please enter your phone number..
+        /// </summary>
+        public static string Form_Phone_Error_Required {
+            get {
+                return ResourceManager.GetString("Form_Phone_Error_Required", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Send Message.
+        /// </summary>
+        public static string Form_Submit {
+            get {
+                return ResourceManager.GetString("Form_Submit", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to We were not able to submit your message. Please verify your inputs and try again..
+        /// </summary>
+        public static string Form_Submit_Error {
+            get {
+                return ResourceManager.GetString("Form_Submit_Error", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to We have received your message. One of our representatives will contact you within 48hs..
+        /// </summary>
+        public static string Form_Submit_Success {
+            get {
+                return ResourceManager.GetString("Form_Submit_Success", resourceCulture);
             }
         }
     }
