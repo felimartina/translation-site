@@ -1,10 +1,14 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Configuration;
+using System.IO;
 using System.Linq;
 using System.Net;
 using System.Net.Mail;
+using System.Threading;
 using System.Web;
+using System.Web.Mvc;
+using DotNetOpenAuth.Messaging;
 using Logging;
 
 namespace TranslationsSite.Helpers
@@ -12,7 +16,7 @@ namespace TranslationsSite.Helpers
     public class EmailHelper
     {
         private static readonly Logger log = new Logger(System.Reflection.MethodBase.GetCurrentMethod().DeclaringType);
-        public static void SendEmail(string toAddress, string fromAddress, string subject, string message, bool html = true)
+        public static void SendEmail(string toAddress, string fromAddress, string subject, string message, List<Attachment> attachments = null, bool html = true)
         {
             using (var smtpClient = 
                 new SmtpClient(
@@ -34,7 +38,11 @@ namespace TranslationsSite.Helpers
                     mail.Subject = subject;
                     mail.Body = message;
                     mail.IsBodyHtml = html;
-
+                    //Add attachments, if any
+                    if (attachments != null)
+                    {
+                        mail.Attachments.AddRange(attachments);
+                    }
                     try
                     {
                         smtpClient.Send(mail);
@@ -71,6 +79,23 @@ namespace TranslationsSite.Helpers
                     }
                 }
             }
+        }
+
+        public static void SendConfirmationEmail(string name, string email)
+        {
+            var toAddress = email;
+            var fromAddress = ConfigurationManager.AppSettings[Constants.SETTING_EMAIL_TO];
+            const string subject = "We have received your enquiry";
+            string htmlMessage;
+            using (var reader = new StreamReader(HttpContext.Current.Server.MapPath("~/Templates/WeHaveReceivedYourEnquiry.html")))
+            {
+                htmlMessage = reader.ReadToEnd();
+            }
+            htmlMessage = htmlMessage.Replace("{{NAME}}", name);
+            //start email Thread
+            var tEmail = new Thread(
+                () => EmailHelper.SendEmail(toAddress, fromAddress, subject, htmlMessage));
+            tEmail.Start();
         }
     }
 }

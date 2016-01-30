@@ -14,7 +14,6 @@ namespace TranslationsSite.Controllers
 {
     public class ContactUsController : Controller
     {
-        private const string SETTING_EMAIL_TO = "EmailTo";
         private static readonly Logger log = new Logger(System.Reflection.MethodBase.GetCurrentMethod().DeclaringType);
 
         public ActionResult Index()
@@ -27,7 +26,7 @@ namespace TranslationsSite.Controllers
             try
             {
                 //prepare email
-                var toAddress = ConfigurationManager.AppSettings[SETTING_EMAIL_TO];
+                var toAddress = ConfigurationManager.AppSettings[Constants.SETTING_EMAIL_TO];
                 var fromAddress = email;
                 var subject = string.Format("You received an enquiry from {0}", name);
                 string htmlMessage;
@@ -44,7 +43,7 @@ namespace TranslationsSite.Controllers
                     () => EmailHelper.SendEmail(toAddress, fromAddress, subject, htmlMessage));
                 tEmail.Start();
                 //Also send a confirmation email to the user
-                SendConfirmationEmail(name, email);
+                EmailHelper.SendConfirmationEmail(name, email);
 
                 return JavaScript("true");
             }
@@ -56,23 +55,6 @@ namespace TranslationsSite.Controllers
                 return JavaScript("false");
             }
 
-        }
-
-        private void SendConfirmationEmail(string name, string email)
-        {
-            var toAddress = email;
-            var fromAddress = ConfigurationManager.AppSettings[SETTING_EMAIL_TO];
-            const string subject = "We have received your enquiry";
-            string htmlMessage;
-            using (var reader = new StreamReader(ControllerContext.HttpContext.Server.MapPath("~/Templates/WeHaveReceivedYourEnquiry.html")))
-            {
-                htmlMessage = reader.ReadToEnd();
-            }
-            htmlMessage = htmlMessage.Replace("{{NAME}}", name);
-            //start email Thread
-            var tEmail = new Thread(
-                () => EmailHelper.SendEmail(toAddress, fromAddress, subject, htmlMessage));
-            tEmail.Start();
         }
     }
 }

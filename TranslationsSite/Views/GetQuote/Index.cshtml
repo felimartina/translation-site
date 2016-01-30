@@ -1,0 +1,101 @@
+﻿@{
+    ViewBag.Title = @TranslationsSite.Resources.GetQuote.Index.GetQuote_Header;
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="row">
+    <div class="col-lg-12">
+        <h1 class="page-header">
+            @TranslationsSite.Resources.GetQuote.Index.GetQuote_Header
+        </h1>
+        <ol class="breadcrumb">
+            <li>
+                <a href="@Url.Action("Index", "Home")">Home</a>
+            </li>
+            <li class="active">@TranslationsSite.Resources.GetQuote.Index.GetQuote_Header</li>
+        </ol>
+    </div>
+</div>
+<div class="row">
+    <div class="col-md-4">
+        <h3>@Html.Raw(@TranslationsSite.Resources.GetQuote.Index.GetQuote_Title)</h3>
+        <p>
+            @Html.Raw(@TranslationsSite.Resources.GetQuote.Index.GetQuote_Description)
+        </p>
+    </div>
+    <div class="col-md-8">
+        <h3>@TranslationsSite.Resources.GetQuote.Index.Form_Header</h3>
+        <form name="sentMessage" id="contactForm" novalidate="">
+            <div class="control-group form-group">
+                <div class="controls col-md-12">
+                    <label for="name">@TranslationsSite.Resources.GetQuote.Index.Form_Name</label>
+                    <input type="text" class="form-control" id="name" required="" data-validation-required-message="@TranslationsSite.Resources.GetQuote.Index.Form_Name_Error_Required">
+                    <p class="help-block"></p>
+                </div>
+            </div>
+            <div class="control-group form-group">
+                <div class="controls col-md-6">
+                    <label for="email">@TranslationsSite.Resources.GetQuote.Index.Form_Email</label>
+                    <input type="email" class="form-control" id="email" required="" data-validation-required-message="@TranslationsSite.Resources.GetQuote.Index.Form_Email_Error_Required">
+                    <div class="help-block"></div>
+                </div>
+                <div class="controls col-md-6">
+                    <label for="phone">@TranslationsSite.Resources.GetQuote.Index.Form_Phone</label>
+                    <input type="tel" class="form-control" id="phone" required="" data-validation-required-message="@TranslationsSite.Resources.GetQuote.Index.Form_Phone_Error_Required">
+                    <div class="help-block"></div>
+                </div>
+            </div>
+            <div class="control-group form-group">
+                <div class="controls col-md-6">
+                    <label for="projectType">@TranslationsSite.Resources.GetQuote.Index.Form_ProjectType</label>
+                    <select id="projectType" class="form-control">
+                        @Html.Raw(@TranslationsSite.Resources.GetQuote.Index.Form_ProjectType_Select)
+                    </select>
+                    <div class="help-block"></div>
+                </div>
+                <div class="controls col-md-6">
+                    <label for="languages">@TranslationsSite.Resources.GetQuote.Index.Form_Languages</label>
+                    <select id="languages" class="form-control">
+                        @Html.Raw(@TranslationsSite.Resources.GetQuote.Index.Form_Languages_Select)
+                    </select>
+                    <div class="help-block"></div>
+                </div>
+            </div>
+            <div class="control-group form-group">
+                <div class="controls col-md-4">
+                    <label for="file">@TranslationsSite.Resources.GetQuote.Index.Form_File</label>
+                    <input type="file" id="file">
+                    <div class="help-block"></div>
+                </div>
+                <div class="controls col-md-4">
+                    <label for="deadline">@TranslationsSite.Resources.GetQuote.Index.Form_Deadline</label>
+                    <input type="date" class="form-control" id="deadline">
+                </div>
+                <div class="controls col-md-4">
+                    <label for="wordCount">@TranslationsSite.Resources.GetQuote.Index.Form_WordCount</label>
+                    <input type="number" class="form-control" id="wordCount">
+                </div>
+            </div>
+            <div class="control-group form-group">
+                <div class="controls col-md-12">
+                    <label for="message">@TranslationsSite.Resources.GetQuote.Index.Form_Details</label>
+                    <textarea rows="10" cols="100" class="form-control" id="message" required="" data-validation-required-message="@TranslationsSite.Resources.GetQuote.Index.Form_Details_Error_Required" maxlength="999" style="resize:none"></textarea>
+                    <div class="help-block"></div>
+                </div>
+            </div>
+            <div class="col-sm-12">
+                <div id="success" class="alert alert-success hidden">@TranslationsSite.Resources.GetQuote.Index.Form_Submit_Success</div>
+                <div id="fail" class="alert alert-danger hidden">@TranslationsSite.Resources.GetQuote.Index.Form_Submit_Error</div>
+                <div class="text-center">
+                    <button type="submit" class="btn btn-primary">@TranslationsSite.Resources.GetQuote.Index.Form_Submit</button>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
+
+@section PageScripts
+{
+    <script src="~/Scripts/jqBootstrapValidation.js"></script>
+    <script src="~/Scripts/get_quote.js"></script>
+}

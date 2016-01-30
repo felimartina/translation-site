@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <meta name="author" content="Felipe Martina">
-    <title>Modern Business - Start Bootstrap Template</title>
+    <title>Re-Make Translations</title>
     @Styles.Render("~/content/startbootstrap")
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -14,7 +14,6 @@
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
-
     <!-- Page Level CSS -->
     @Styles.Render("~/Content/themes/startbootstrap-modern-business-1.0.3/plugins/language-selector/languages.min.css")
 </head>
@@ -42,7 +41,7 @@
                     <li><a class="nav-link" href="@Url.Action("Index", "ContactUs")">@Html.Raw(@TranslationsSite.Resources.Shared.General.ContactUs_Button)</a></li>
                     <!-- Language Dropdown -->
                     <li>
-                        @if (this.ViewContext.RouteData.Values["language"] == null || (string) this.ViewContext.RouteData.Values["language"] == "en")
+                        @if (this.ViewContext.RouteData.Values["language"] == null || (string)this.ViewContext.RouteData.Values["language"] == "en")
                         {
                             <a href="@Url.Action("Index", "Home", new { language = "es" })" class="nav-link btn">
                                 <span class="lang-sm" lang="es"></span>
@@ -67,6 +66,11 @@
     <div class="container">
         @RenderBody()
     </div>
+    <footer>
+        <div class="col-md-12 text-center">
+            <p>Re-Make Translations</p>
+        </div>
+    </footer>
     @Scripts.Render("~/bundles/startbootstrap")
     <!-- Page Level Scripts -->
     @RenderSection("PageScripts", required: false)

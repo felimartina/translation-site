@@ -198,18 +198,29 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Helpers\Constants.cs" />
     <Compile Include="Helpers\EmailHelper.cs" />
     <Compile Include="Models\AccountModels.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Resources\ContactUs\Index.Designer.cs">
+      <DependentUpon>Index.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
     <Compile Include="Resources\ContactUs\Index.es.Designer.cs">
       <DependentUpon>Index.es.resx</DependentUpon>
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
     </Compile>
-    <Compile Include="Resources\ContactUs\Index.Designer.cs">
+    <Compile Include="Resources\GetQuote\Index.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
       <DependentUpon>Index.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Resources\GetQuote\Index.es.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
+      <DependentUpon>Index.es.resx</DependentUpon>
     </Compile>
     <Compile Include="Resources\Home\Index.es.Designer.cs">
       <DependentUpon>Index.es.resx</DependentUpon>
@@ -361,6 +372,7 @@
     <None Include="Scripts\jquery-1.11.0.intellisense.js" />
     <Content Include="Images\banner-services-legal-translation.jpg" />
     <Content Include="Images\profile-romina-castagno.jpg" />
+    <Content Include="Scripts\get_quote.js" />
     <Content Include="Scripts\contact_me.js" />
     <Content Include="Scripts\jqBootstrapValidation.js" />
     <Content Include="Scripts\jquery-1.11.0.js" />
@@ -378,6 +390,7 @@
     <Content Include="Scripts\knockout-2.2.0.debug.js" />
     <Content Include="Scripts\knockout-2.2.0.js" />
     <Content Include="Scripts\modernizr-2.6.2.js" />
+    <Content Include="Templates\QuoteRequestReceived.html" />
     <Content Include="Templates\WeHaveReceivedYourEnquiry.html" />
     <Content Include="Templates\EnquiryReceived.html" />
     <Content Include="Web.config">
@@ -422,7 +435,7 @@
     <Content Include="Views\Web.config" />
     <Content Include="Views\Shared\_Layout.cshtml" />
     <Content Include="Views\HowDoWeWork\Index.cshtml" />
-    <Content Include="Views\GetQuote\GetQuote.cshtml" />
+    <Content Include="Views\GetQuote\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -438,6 +451,16 @@
     <EmbeddedResource Include="Resources\ContactUs\Index.resx">
       <Generator>PublicResXFileCodeGenerator</Generator>
       <LastGenOutput>Index.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\GetQuote\Index.es.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>Index.es.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\GetQuote\Index.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>Index.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="Resources\Home\Index.es.resx">
       <Generator>PublicResXFileCodeGenerator</Generator>
