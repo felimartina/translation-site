@@ -371,7 +371,10 @@
     <None Include="Properties\PublishProfiles\FileSystemTranslationSite.pubxml" />
     <None Include="Scripts\jquery-1.11.0.intellisense.js" />
     <Content Include="Images\banner-services-legal-translation.jpg" />
+    <Content Include="Images\profile-natalia-dominguez-black.jpeg" />
+    <Content Include="Images\profile-romina-castagno-black.jpg" />
     <Content Include="Images\profile-romina-castagno.jpg" />
+    <Content Include="Images\profile-vanina-fassi-black.jpg" />
     <Content Include="Scripts\get_quote.js" />
     <Content Include="Scripts\contact_me.js" />
     <Content Include="Scripts\jqBootstrapValidation.js" />

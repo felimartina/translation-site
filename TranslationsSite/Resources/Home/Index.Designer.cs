@@ -62,7 +62,7 @@ namespace TranslationsSite.Resources.Home {
         
         /// <summary>
         ///   Looks up a localized string similar to Our translators have extensive linguistic knowledge and translate solely and exclusively towards their source language.
-        ///                    Our working mode is based on different tools and processes. Every project you entrust us follows the same process, in accordance with a rigorous methodology that guarantees an optimal result..
+        ///Our working mode is based on different tools and processes. Every project you entrust us follows the same process, in accordance with a rigorous methodology that guarantees an optimal result..
         /// </summary>
         public static string HowDoWeWork_Description {
             get {
