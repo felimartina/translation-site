@@ -370,7 +370,6 @@
     <Content Include="Content\themes\startbootstrap-modern-business-1.0.3\fonts\glyphicons-halflings-regular.woff2" />
     <None Include="Properties\PublishProfiles\FileSystemTranslationSite.pubxml" />
     <None Include="Scripts\jquery-1.11.0.intellisense.js" />
-    <Content Include="Images\banner-services-legal-translation.jpg" />
     <Content Include="Images\profile-natalia-dominguez-black.jpeg" />
     <Content Include="Images\profile-romina-castagno-black.jpg" />
     <Content Include="Images\profile-romina-castagno.jpg" />
