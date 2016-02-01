@@ -109,7 +109,7 @@ namespace TranslationsSite.Resources.WhoAreWe {
         ///   Looks up a localized string similar to Romina Castagno is a professional-grade human translator who provides document translation services from English into Spanish.
         ///She works with several specialization areas and a wide range of industries: Energy (oil, gas and alternative energy), Business, Software, Environment, Literature, Fashion, Games applications, among others. 
         ///She has done edition and proofreading (style, grammar, spelling) of translations for companies in India, USA, Europe, and Argentina. 
-        ///Her tasks consists in working with platfo [rest of string was truncated]&quot;;.
+        ///Her tasks consist in working with platfor [rest of string was truncated]&quot;;.
         /// </summary>
         public static string RominaCastagno_Description {
             get {

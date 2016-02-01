@@ -127,7 +127,7 @@
     <value>Email:</value>
   </data>
   <data name="Form_Email_Error_Required" xml:space="preserve">
-    <value>Por favor ingrese su email.</value>
+    <value>Por favor ingrese su dirección de email.</value>
   </data>
   <data name="Form_Header" xml:space="preserve">
     <value>Consultas</value>
@@ -142,10 +142,10 @@
     <value>Nombre Completo:</value>
   </data>
   <data name="Form_Name_Error_Required" xml:space="preserve">
-    <value>Por favor ingrese su nombre.</value>
+    <value>Por favor ingrese su nombre completo.</value>
   </data>
   <data name="Form_Phone" xml:space="preserve">
-    <value>Telefono de contacto:</value>
+    <value>Teléfono de contacto:</value>
   </data>
   <data name="Form_Phone_Error_Required" xml:space="preserve">
     <value>Por favor ingrese un telefono de contacto.</value>

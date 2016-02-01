@@ -21,6 +21,7 @@
     <IISExpressWindowsAuthentication />
     <IISExpressUseClassicPipelineMode />
     <WebGreaseLibPath>..\packages\WebGrease.1.5.2\lib</WebGreaseLibPath>
+    <UseGlobalApplicationHostFile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -374,8 +375,10 @@
     <Content Include="Images\profile-romina-castagno-black.jpg" />
     <Content Include="Images\profile-romina-castagno.jpg" />
     <Content Include="Images\profile-vanina-fassi-black.jpg" />
-    <Content Include="Scripts\get_quote.js" />
-    <Content Include="Scripts\contact_me.js" />
+    <Content Include="Images\remake-logo.jpg" />
+    <Content Include="Scripts\controller_whoarewe.js" />
+    <Content Include="Scripts\controller_getquote.js" />
+    <Content Include="Scripts\controller_contactus.js" />
     <Content Include="Scripts\jqBootstrapValidation.js" />
     <Content Include="Scripts\jquery-1.11.0.js" />
     <Content Include="Scripts\jquery-1.11.0.min.js" />
@@ -392,6 +395,7 @@
     <Content Include="Scripts\knockout-2.2.0.debug.js" />
     <Content Include="Scripts\knockout-2.2.0.js" />
     <Content Include="Scripts\modernizr-2.6.2.js" />
+    <Content Include="Scripts\plugin_readmore.js" />
     <Content Include="Templates\QuoteRequestReceived.html" />
     <Content Include="Templates\WeHaveReceivedYourEnquiry.html" />
     <Content Include="Templates\EnquiryReceived.html" />

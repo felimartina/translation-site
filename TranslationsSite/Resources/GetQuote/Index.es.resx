@@ -117,60 +117,77 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="Form_Deadline" xml:space="preserve">
+    <value>Fecha de entrega:</value>
+  </data>
   <data name="Form_Details" xml:space="preserve">
-    <value>Message:</value>
+    <value>Mas información:</value>
   </data>
   <data name="Form_Details_Error_Required" xml:space="preserve">
-    <value>Please enter your message.</value>
+    <value>Por favor proveea mas información para recibir un presupuesto.</value>
   </data>
   <data name="Form_Email" xml:space="preserve">
-    <value>Email Address:</value>
+    <value>Email:</value>
   </data>
   <data name="Form_Email_Error_Required" xml:space="preserve">
-    <value>Please enter your email address.</value>
+    <value>Por favor ingrese su dirección de email.</value>
+  </data>
+  <data name="Form_File" xml:space="preserve">
+    <value>Archivo:</value>
   </data>
   <data name="Form_Header" xml:space="preserve">
-    <value>Submit this form to receive a FREE translation quote</value>
+    <value>Enviar este formulario para recibir un presupuesto gratuito de traducción</value>
+  </data>
+  <data name="Form_Languages" xml:space="preserve">
+    <value>Idiomas:</value>
+  </data>
+  <data name="Form_Languages_Select" xml:space="preserve">
+    <value>&lt;option value="english-spanish"&gt;Inglés a Español&lt;/option&gt;
+&lt;option value="spanish-english"&gt;Español a Inglés&lt;/option&gt;
+&lt;option value="other"&gt;Otros (Especificar en la sección "Mas información")&lt;/option&gt;</value>
   </data>
   <data name="Form_Name" xml:space="preserve">
-    <value>Full Name:</value>
+    <value>Nombre Completo:</value>
   </data>
   <data name="Form_Name_Error_Required" xml:space="preserve">
-    <value>Please enter your name.</value>
+    <value>Por favor ingrese su nombre completo.</value>
   </data>
   <data name="Form_Phone" xml:space="preserve">
-    <value>Phone Number:</value>
+    <value>Teléfono de contacto:</value>
   </data>
   <data name="Form_Phone_Error_Required" xml:space="preserve">
-    <value>Please enter your phone number.</value>
+    <value>Por favor ingrese un telefono de contacto.</value>
   </data>
   <data name="Form_ProjectType" xml:space="preserve">
-    <value>Project Type:</value>
+    <value>Tipo de Servicio:</value>
   </data>
   <data name="Form_ProjectType_Select" xml:space="preserve">
-    <value>&lt;option value="translation"&gt;All&lt;/option&gt;
-                        &lt;option value="translation"&gt;Translation&lt;/option&gt;
-                        &lt;option value="translation"&gt;Edition&lt;/option&gt;
-                        &lt;option value="translation"&gt;Proof Reading&lt;/option&gt;
-                        &lt;option value="translation"&gt;Other&lt;/option&gt;</value>
+    <value>&lt;option value="translation"&gt;Traducción&lt;/option&gt;
+&lt;option value="translation"&gt;Edición&lt;/option&gt;
+&lt;option value="translation"&gt;Post Edición&lt;/option&gt;
+&lt;option value="other"&gt;Otros (Especificar en la sección "Mas información")&lt;/option&gt;</value>
   </data>
   <data name="Form_Submit" xml:space="preserve">
-    <value>Send Message</value>
+    <value>Solicitar Presupuesto</value>
   </data>
   <data name="Form_Submit_Error" xml:space="preserve">
-    <value>We were not able to submit your message. Please verify your inputs and try again.</value>
+    <value>No hemos podido enviar su mensaje. Por favor verifique los datos ingresados e intente nuevamente.</value>
   </data>
   <data name="Form_Submit_Success" xml:space="preserve">
-    <value>We have received your message. One of our representatives will contact you within 48hs.</value>
+    <value>Hemos recibido su mensaje. Nos pondremos en contacto con usted dentro de las 48hs.</value>
+  </data>
+  <data name="Form_WordCount" xml:space="preserve">
+    <value>Cantidad de palabras:</value>
   </data>
   <data name="GetQuote_Description" xml:space="preserve">
-    <value>If you already know the word count of your document or if you have already checked it with our word count process, you can obtain a free quote by sending it to our e-mail. Please, remember to specify your contact details, source and target language, delivery date and type of service.</value>
+    <value>Si ya conoce la cantidad de palabras de su documento, o si tiene accesso al mismo, puede solicitar un presupuesto gratuito completando el formulario en esta pagina.
+&lt;br/&gt;
+Recuerde especificar la información de contacto, lengua fuente y meta, fecha de envío y tipo de servicio.</value>
   </data>
   <data name="GetQuote_Header" xml:space="preserve">
-    <value>Get a Quote</value>
-    <comment>_</comment>
+    <value>Solicitar Presupuesto</value>
   </data>
   <data name="GetQuote_Title" xml:space="preserve">
-    <value>How do I get a free quote?</value>
+    <value>¿Cómo puedo recibir un presupuesto gratuito?</value>
   </data>
 </root>
