@@ -371,12 +371,9 @@
     <Content Include="Content\themes\startbootstrap-modern-business-1.0.3\fonts\glyphicons-halflings-regular.woff2" />
     <None Include="Properties\PublishProfiles\FileSystemTranslationSite.pubxml" />
     <None Include="Scripts\jquery-1.11.0.intellisense.js" />
-    <Content Include="Images\profile-natalia-dominguez-black.jpeg" />
+    <Content Include="Images\motus-logo-transparent.png" />
     <Content Include="Images\profile-romina-castagno-black.jpg" />
     <Content Include="Images\profile-romina-castagno.jpg" />
-    <Content Include="Images\profile-vanina-fassi-black.jpg" />
-    <Content Include="Images\remake-logo.jpg" />
-    <Content Include="Scripts\controller_whoarewe.js" />
     <Content Include="Scripts\controller_getquote.js" />
     <Content Include="Scripts\controller_contactus.js" />
     <Content Include="Scripts\jqBootstrapValidation.js" />

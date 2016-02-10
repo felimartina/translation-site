@@ -118,7 +118,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="CompanyName" xml:space="preserve">
-    <value>Translation Site</value>
+    <value>Motus Translations</value>
   </data>
   <data name="ContactUs_Button" xml:space="preserve">
     <value>Contacto</value>
@@ -127,12 +127,12 @@
     <value>Obtenga su Presupuesto</value>
   </data>
   <data name="HowDoWeWork_Button" xml:space="preserve">
-    <value>Metodologia de trabajo</value>
+    <value>Metodología de trabajo</value>
   </data>
   <data name="LearnMore_Button" xml:space="preserve">
-    <value>Mas...</value>
+    <value>Más...</value>
   </data>
   <data name="WhoAreWe_Button" xml:space="preserve">
-    <value>Quienes Somos?</value>
+    <value>Quiénes Somos?</value>
   </data>
 </root>

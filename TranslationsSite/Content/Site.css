@@ -1,8 +1,44 @@
-﻿.profile-picture {
-    max-height: 300px;
+﻿header{
+    margin-top: 20px;
+}
+body {
+    background-color: #EEF4E0;
+    color: #646663;
+    text-align: justify;
+    text-justify: inter-word;
+}
+.navbar-inverse .navbar-brand, .navbar-inverse .navbar-nav>li>a {
+    color: #7d5c68;
+}
+.navbar-inverse .navbar-brand:hover, .navbar-inverse .navbar-nav>li>a:hover{
+    color: #beaeb4;
+}
+.navbar-inverse{
+    background-color: #d1ecb6;
+}
+.breadcrumb, .thumbnail, .panel-default>.panel-heading {
+    background-color: #d1cad1;
+}
+.breadcrumb>li+li:before, .breadcrumb>li>a{
+    color: #ffffff;
+}
+.navbar-inverse .navbar-toggle{
+    background-color: #7d5c68;
+    color: #646663 !important;
+}
+.navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-toggle:hover{
+    background-color: #beaeb4;
+}
+a, a:visited{
+    color: #7d5c68;
+}
+.fa.fa-linkedin-square{
+    color: #337ab7;
+}
+.profile-picture {
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 @media (min-width: 768px) {
-  .img-responsive.logo {
-    padding-top: 100px;
-  }
+  
 }

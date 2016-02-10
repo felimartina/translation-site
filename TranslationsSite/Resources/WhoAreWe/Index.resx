@@ -117,19 +117,6 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="NataliaDominguez_Description" xml:space="preserve">
-    <value>Natalia Domínguez is an enthusiastic professional translator. She exclusively renders from English into Spanish —her mother tongue— and provides translation services for Business, Finance, IT, Social and Medical Science sectors. Most part of her projects come from the following fields: Finance (financial documents); Journalism (different pieces of news and articles); general texts concerning Medical topics (health insurance documents, medical guides, etc); Technology issues such as manuals and guidelines for different devices. During the course of the last two years so far, she has been collaborating as a volunteer translator for GlobalVoices (an international news website). In addition, she also has experience as ESL teacher as she has been teaching English at all levels for the last two years. 
-Her accomplishments derived through dedicated, focused and innovative work a s well as to strive for improving by permanent training and studying. She strongly believes that curiosity leads to a desirous of unlimited knowledge and constant improvement.</value>
-  </data>
-  <data name="NataliaDominguez_LinkedinUri" xml:space="preserve">
-    <value>https://www.linkedin.com/in/domingueznatalia16/en</value>
-  </data>
-  <data name="NataliaDominguez_Name" xml:space="preserve">
-    <value>Natalia Domínguez</value>
-  </data>
-  <data name="NataliaDominguez_Title" xml:space="preserve">
-    <value>English Translator</value>
-  </data>
   <data name="OurTeam_Header" xml:space="preserve">
     <value>Our Team</value>
   </data>
@@ -151,30 +138,10 @@ Her traveling experiences helped her to be immersed into the real culture and la
   <data name="RominaCastagno_Title" xml:space="preserve">
     <value>English Translator</value>
   </data>
-  <data name="VaninaFassi_Description" xml:space="preserve">
-    <value>Vanina Fassi is a professional English-Spanish translator specializing in Medicine, Health Care, Pharmaceutical, and Psychology.
-Investigating and discovering about different subjects drives her to continually improve her knowledge of the translation industry. She has translated and edited for many different companies within several fields, such as sports, journalism, fashion, to name a few.
-Building long-term client relationship is essential for her, thus she commits herself to satisfy the clients’ requirements by providing them with accurate and high-quality translations. Besides, an active and enthusiastic attitude allows her to meet the agreed delivery date and work with an open and permanent communication.
-Having worked as a Project Manager gave her the opportunity to coordinate and monitor other linguists’ work; thereby, she is aware of all the stages involved in the process of translation. Her incessant concern to achieve and exceed client expectations makes her a devoted professional focused on the successful completion of every project.
-Teaching is another important part of her interests, which is why she teaches English to students of all levels and she also offers training courses in reading-comprehension for undergraduate students.
-Because of her great passion for the language she is constantly challenging her limits and striving to grow both professionally and personally.</value>
-  </data>
-  <data name="VaninaFassi_LinkedinUri" xml:space="preserve">
-    <value>https://ar.linkedin.com/in/vaninafassi/en</value>
-  </data>
-  <data name="VaninaFassi_Name" xml:space="preserve">
-    <value>Vanina Fassi</value>
-  </data>
-  <data name="VaninaFassi_Title" xml:space="preserve">
-    <value>English Translator</value>
-  </data>
   <data name="WhoAreWe_Description" xml:space="preserve">
-    <value>As self-motivated professionals, we have set up our own enterprise Re- Make translations where effective communication is our main purpose; and our commitment is to focus on delivering efficient language services. We believe, as detail- oriented linguists, that quality is paramount in the world of translation, and finishing translation assignments on time is an essential part of it.
-&lt;br&gt;
-&lt;strong&gt;Re-Make Translations&lt;/strong&gt; was founded on a simple business premise to complete professional translation services. We offer multiple levels of service based on client needs, ranging from draft/summary translation up to certified translation, featuring our three-step process with a translator, editor, and proofreader, all designed to meet the evolving needs of global businesses.
-Regular projects include books, graphic novels, brochures, manuals, newsletters, contracts, patents, help files, ad copy, package copy, labels, websites, and multilingual web banners.
-&lt;br&gt;
-As a trustful company, we carefully pair your text to a translator with the appropriate subject matter expertise and background. Competitive Prices and First Class Service, which is our promise to you. In fact, when required, we will send you a detailed quote including a full cost breakdown so you will be delighted by our bills, not shocked.</value>
+    <value>&lt;strong&gt;Motus&lt;/strong&gt; is a new translation company placing emphasis on dedicated Project Management and excellent customer service. We offer the widest range of document translation services with accuracy, industry-specific experience and a comprehensive network of knowledgeable translators.
+In Motus Translations, clients receive personal attention and service. The company ensures each project, big or small, is given equal attention. 
+We offer multiple levels of service based on client needs, ranging from draft/summary translation up to certified translation, considering our three-step process with a translator, editor, and proofreader. We offer a Translation completed by a native speaker plus checking and proofreading by a linguist. We also provide you with a revision by another native speaker specializing in your industry. Moreover, when required, we will send you a detailed quote including a full cost breakdown.</value>
   </data>
   <data name="WhoAreWe_Header" xml:space="preserve">
     <value>Who Are We?</value>

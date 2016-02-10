@@ -61,42 +61,6 @@ namespace TranslationsSite.Resources.WhoAreWe {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Natalia Domínguez is an enthusiastic professional translator. She exclusively renders from English into Spanish —her mother tongue— and provides translation services for Business, Finance, IT, Social and Medical Science sectors. Most part of her projects come from the following fields: Finance (financial documents); Journalism (different pieces of news and articles); general texts concerning Medical topics (health insurance documents, medical guides, etc); Technology issues such as manuals and guidelines fo [rest of string was truncated]&quot;;.
-        /// </summary>
-        public static string NataliaDominguez_Description {
-            get {
-                return ResourceManager.GetString("NataliaDominguez_Description", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to https://www.linkedin.com/in/domingueznatalia16/en.
-        /// </summary>
-        public static string NataliaDominguez_LinkedinUri {
-            get {
-                return ResourceManager.GetString("NataliaDominguez_LinkedinUri", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Natalia Domínguez.
-        /// </summary>
-        public static string NataliaDominguez_Name {
-            get {
-                return ResourceManager.GetString("NataliaDominguez_Name", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to English Translator.
-        /// </summary>
-        public static string NataliaDominguez_Title {
-            get {
-                return ResourceManager.GetString("NataliaDominguez_Title", resourceCulture);
-            }
-        }
-        
-        /// <summary>
         ///   Looks up a localized string similar to Our Team.
         /// </summary>
         public static string OurTeam_Header {
@@ -145,47 +109,9 @@ namespace TranslationsSite.Resources.WhoAreWe {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Vanina Fassi is a professional English-Spanish translator specializing in Medicine, Health Care, Pharmaceutical, and Psychology.
-        ///Investigating and discovering about different subjects drives her to continually improve her knowledge of the translation industry. She has translated and edited for many different companies within several fields, such as sports, journalism, fashion, to name a few.
-        ///Building long-term client relationship is essential for her, thus she commits herself to satisfy the clients’ requi [rest of string was truncated]&quot;;.
-        /// </summary>
-        public static string VaninaFassi_Description {
-            get {
-                return ResourceManager.GetString("VaninaFassi_Description", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to https://ar.linkedin.com/in/vaninafassi/en.
-        /// </summary>
-        public static string VaninaFassi_LinkedinUri {
-            get {
-                return ResourceManager.GetString("VaninaFassi_LinkedinUri", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Vanina Fassi.
-        /// </summary>
-        public static string VaninaFassi_Name {
-            get {
-                return ResourceManager.GetString("VaninaFassi_Name", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to English Translator.
-        /// </summary>
-        public static string VaninaFassi_Title {
-            get {
-                return ResourceManager.GetString("VaninaFassi_Title", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to As self-motivated professionals, we have set up our own enterprise Re- Make translations where effective communication is our main purpose; and our commitment is to focus on delivering efficient language services. We believe, as detail- oriented linguists, that quality is paramount in the world of translation, and finishing translation assignments on time is an essential part of it.
-        ///&lt;br&gt;
-        ///&lt;strong&gt;Re-Make Translations&lt;/strong&gt; was founded on a simple business premise to complete professional translation ser [rest of string was truncated]&quot;;.
+        ///   Looks up a localized string similar to &lt;strong&gt;Motus&lt;/strong&gt; is a new translation company placing emphasis on dedicated Project Management and excellent customer service. We offer the widest range of document translation services with accuracy, industry-specific experience and a comprehensive network of knowledgeable translators.
+        ///In Motus Translations, clients receive personal attention and service. The company ensures each project, big or small, is given equal attention. 
+        ///We offer multiple levels of service based on client needs, ranging fro [rest of string was truncated]&quot;;.
         /// </summary>
         public static string WhoAreWe_Description {
             get {

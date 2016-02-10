@@ -62,10 +62,11 @@ namespace TranslationsSite.Resources.HowDoWeWork {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;ul&gt;
-        ///                    &lt;li&gt;We commit ourselves to safeguard the interests of our clients as our own and divulge no confidential information.&lt;/li&gt;
-        ///                    &lt;li&gt;Our translation team and collaborators shall not disclose information acquired during the course of their assignments.&lt;/li&gt;
-        ///                    &lt;li&gt;Translated documents remain the client&apos;s property.&lt;/li&gt;
-        ///                    &lt;li&gt;Our translation team and our company may only disclose information with the permission of our clients (or if [rest of string was truncated]&quot;;.
+        ///                    &lt;li&gt;We do not divulge confidential information.&lt;/li&gt;
+        ///                    &lt;li&gt;Our translation team and collaborators cannot disclose information acquired during the course of their assignments.&lt;/li&gt;
+        ///                    &lt;li&gt;Our translation team and our company may only disclose information with the permission of our clients (or if the law requires disclosure).&lt;/li&gt;
+        ///                &lt;/ul&gt;
+        ///                Our confidentiality principles are based on the following Codes of Ethics: ATA [rest of string was truncated]&quot;;.
         /// </summary>
         public static string Confidentiality_Description {
             get {
@@ -83,7 +84,7 @@ namespace TranslationsSite.Resources.HowDoWeWork {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Our compromise is to deliver translated assignments with the high standard of quality and always considering our clients’ urgency. To accomplish this, we work with qualified and specialised linguists. In addition, if any translated document does not fulfill our client’s expectation, we will provide a revision and a version free of charge to satisfy our clients’ needs (conditions and terms are stipulated from the start.).
+        ///   Looks up a localized string similar to We work with qualified and specialized linguists. We ensure our translated documents are taken by professionals who specialize on your required field. We deliver translated assignments with high standard of quality and we always consider our clients’ urgency. In addition, if there are problems, mistakes or even doubts you will like to clarify with our professionals, please write an email to us with your inquiry and we will respond as soon as the translator and editor reply back to it..
         /// </summary>
         public static string Guarantees_Description {
             get {
@@ -102,11 +103,7 @@ namespace TranslationsSite.Resources.HowDoWeWork {
         
         /// <summary>
         ///   Looks up a localized string similar to &lt;h3&gt;&lt;strong&gt;Working mode&lt;/strong&gt;&lt;/h3&gt;
-        ///Our translators have extensive linguistic knowledge and translate solely and exclusively towards their source language.
-        ///Our working mode is based on different tools and processes. Every project you entrust us follows the same process, in accordance with a rigorous methodology that guarantees an optimal result. According to the project, the steps are as follows:
-        ///&lt;ol&gt;
-        ///&lt;li&gt;&lt;strong&gt;Analysis of the Project&lt;/strong&gt;:
-        ///The project manager analyses the files, (format, spec [rest of string was truncated]&quot;;.
+        ///At Motus, we offer high-quality translation services that focus on the needs of your business. As part of our translation services we assign a dedicated team to pay special attention to your project. In essence, you can rest assured that your project is well attended to, leaving you free to devote more of your time to your business. Every project you entrust us follows the same process, in accordance with a rigorous methodology of Translators, Editors and Proof reader [rest of string was truncated]&quot;;.
         /// </summary>
         public static string HowDoWeWork_Description {
             get {
@@ -124,12 +121,16 @@ namespace TranslationsSite.Resources.HowDoWeWork {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to We translate from English into Spanish different types of documents related to the following subject matter:
+        ///   Looks up a localized string similar to We have experience that runs from:
         ///                &lt;ul&gt;
-        ///                    &lt;li&gt;Industry (Energy, Oil, Cosmetic, Tourism, Pharmaceutical, Construction.)&lt;/li&gt;
-        ///                    &lt;li&gt;Business (Commerce, Finance, Economics, Accountancy, Legal.)&lt;/li&gt;
-        ///                    &lt;li&gt;Technology (Information Technology, Video Games applications, Computing.)&lt;/li&gt;
-        ///                    &lt;li&gt;Culture (Fashion, Travel, Cookery, Music, Literature.)&lt;/li [rest of string was truncated]&quot;;.
+        ///                    &lt;li&gt;Medical document translations&lt;/li&gt;
+        ///                    &lt;li&gt;Letter translations&lt;/li&gt;
+        ///                    &lt;li&gt;Commercial documents translations&lt;/li&gt;
+        ///                    &lt;li&gt;Marketing materials translations&lt;/li&gt;
+        ///                    &lt;li&gt;Legal documents translations&lt;/li&gt;
+        ///                    &lt;li&gt;Fashion and cosmetics translations&lt;/li&gt;
+        ///                    &lt;li&gt;IT documents translations&lt;/li&gt;
+        ///                    &lt;li&gt;Technical tra [rest of string was truncated]&quot;;.
         /// </summary>
         public static string Services_Description {
             get {

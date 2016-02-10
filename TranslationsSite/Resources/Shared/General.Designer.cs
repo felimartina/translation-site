@@ -61,7 +61,7 @@ namespace TranslationsSite.Resources.Shared {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Re-Make Translations.
+        ///   Looks up a localized string similar to Motus Translations.
         /// </summary>
         public static string CompanyName {
             get {

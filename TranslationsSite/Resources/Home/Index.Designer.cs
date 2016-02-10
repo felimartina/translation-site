@@ -80,7 +80,7 @@ namespace TranslationsSite.Resources.Home {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Prices vary according to the length, difficulty and format of each text, projects and documents. Our services start from $0,03 dollars per source word. However, there is not just one price, so please contact us to verify it based on your own order. We usually make special price for number of pages or big projects and even for quick and easy translations..
+        ///   Looks up a localized string similar to Prices vary according to the length, difficulty and format of each project and document. Our services start from $0,03 dollars per source word. Please contact us to verify it considering your own type of document or work. Every client is unique and deserves special treatment, so please call us and share with us your necessity and inquiry. Get started on your next project by requesting a FREE translation quote..
         /// </summary>
         public static string HowMuchDoesItCost_Description {
             get {
@@ -98,8 +98,7 @@ namespace TranslationsSite.Resources.Home {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Our desire and goal is the continuous improvement and to provide our customers with high-quality services, therefore all opinions are important to us and help us to move forward.
-        ///                    Because we value the opinion of our customers, we look forward to hearing your comments!.
+        ///   Looks up a localized string similar to Our web page is still improving and growing up, but we really appreciate your comments and suggestions to make it better. Please, do contact us for questions or recommendations we can take into account to improve our service. We value the opinion of our customers, we look forward to hearing your comments!.
         /// </summary>
         public static string Questions_Description {
             get {
@@ -108,7 +107,7 @@ namespace TranslationsSite.Resources.Home {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Questions.
+        ///   Looks up a localized string similar to Suggestions.
         /// </summary>
         public static string Questions_Header {
             get {

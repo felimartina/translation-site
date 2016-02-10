@@ -119,54 +119,40 @@
   </resheader>
   <data name="Confidentiality_Description" xml:space="preserve">
     <value>&lt;ul&gt;
-	&lt;li&gt;Nos comprometemos a proteger los intereses de nuestros clientes como si fueran propios y a mantener la privacidad de la información que nuestros clientes nos brinden.&lt;/li&gt;
-	&lt;li&gt;Nuestro equipo de traductores y colaboradores no revelarán la información adquirida durante el proceso de traducción.&lt;/li&gt;
-	&lt;li&gt;Los documentos traducidos son propiedad del cliente.&lt;/li&gt;
-	&lt;li&gt;Nuestra empresa revelará la información proporcionada por nuestros clientes solo con su debida autorización (o en casos extremos en que la justicia así lo requiera).&lt;/li&gt;
+	&lt;li&gt;No divulgamos información confidencial.&lt;/li&gt;
+	&lt;li&gt;Nuestro equipo de traducción y colaboradores no pueden divulgar información obtenida durante el curso de los encargos.&lt;/li&gt;
+	&lt;li&gt;Nuestro equipo de traducción y nuestra empresa pueden solo divulgar información con el permiso de nuestros clientes (o si la ley así lo requiere).&lt;/li&gt;
 &lt;/ul&gt;
-Nuestros principios de confidencialidad están basados en los siguientes códigos de ética:
-ATA (Asociación norteamericana de traductores) y ATTI (Asociación Argentina de Traductores e Intérpretes).</value>
+Nuestros principios de confidencialidad se basan en los siguientes códigos de ética: ATA (Asociación de traductores americanos) y ATTI (Asociación de traductores e intérpretes argentinos).</value>
   </data>
   <data name="Confidentiality_Header" xml:space="preserve">
     <value>Confidencialidad</value>
   </data>
   <data name="Guarantees_Description" xml:space="preserve">
-    <value>Como objetivo principal, nuestro compromiso es entregar trabajos de calidad respetando la urgencia de cada cliente. Y para lograrlo contamos con lingüistas cualificados y especializados. Con el fin de satisfacer a nuestros clientes, en aquellos casos donde el trabajo final no cumpla las expectativas del interesado, ofrecemos la revisión y entrega de otra versión sin cargo (el plazo que se concede en estos casos se detalla en nuestro primer contacto con usted).</value>
+    <value>Trabajamos con lingüistas cualificados y especializados. Nos aseguramos que sus documentos traducidos sean realizados por profesionales especializados en su campo requerido. Cumplimos con entregas de traducción que poseen estándares altos de calidad teniendo en cuenta la urgencia de nuestros clientes. Además, en caso de que surjan problemas, errores o dudas que desee esclarecer con nuestros profesionales, por favor escríbanos un email con sus consultas y responderemos tan pronto como el traductor y editor respondan.</value>
   </data>
   <data name="Guarantees_Header" xml:space="preserve">
     <value>Garantías</value>
   </data>
   <data name="HowDoWeWork_Description" xml:space="preserve">
     <value>&lt;h3&gt;&lt;strong&gt;Método de trabajo&lt;/strong&gt;&lt;/h3&gt;
-Nuestros traductores poseen amplios conocimientos lingüísticos, están altamente especializados, y traducen única y exclusivamente hacia su lengua materna.
-Nuestro método de trabajo se basa en diferentes herramientas y procesos de traducción y cada proyecto que confía a nuestra empresa se somete a un riguroso proceso de calidad, cumpliendo con una metodología estricta, que garantiza un resultado óptimo. En función del proyecto, se desarrollan las siguientes fases:
-&lt;ol&gt;
-&lt;li&gt;&lt;strong&gt;Análisis del proyecto&lt;/strong&gt;:
-El coordinador de proyectos analiza los archivos (formato, terminología específica, cantidad de palabras, etc.) y contempla las necesidades específicas del proyecto (idiomas de destino, plazos, público objetivo…) antes de confirmar la viabilidad de su petición.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Presupuesto&lt;/strong&gt;:
-Luego del análisis del proyecto, el coordinador elabora un presupuesto competitivo que tenga en cuenta el número de documentos, los idiomas de origen y de destino, el plazo de entrega y los servicios solicitados: traducción/DTP/cantidad de palabras/etc.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Traducción&lt;/strong&gt;:
-El coordinador de proyectos recoge toda la información relativa a su proyecto (documentos de referencia, memorias de traducción, glosarios, etc.) y prepara los archivos. A continuación, selecciona al traductor o equipo de traducción especializado que mejor se adapte a su petición.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Maquetación-DTP&lt;/strong&gt;:
-Toda la labor de maquetación se confía al mismo diseñador, lo que garantiza la coherencia gráfica entre las versiones en distintos idiomas de un mismo proyecto.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Revisión/validación&lt;/strong&gt;:
-Un editor se encarga de la revisión del documento traducido para asegurar la uniformidad de estilo y terminología y la corrección del documento con respecto a omisiones o errores de puntuación, ortografía, gramática, pautas, tipografía, etc.&lt;/li&gt;
-&lt;/ol&gt;</value>
+En Motus, ofrecemos servicios de traducción de alta calidad que se focalizan en las necesidades de sus negocios. Como parte de nuestros servicios de traducción, designamos un equipo dedicado para prestar atención especial a su proyecto. Como objetivo principal, usted puede descansar con seguridad, ya que su proyecto estará a cargo de profesionales que le permitirán dedicarse más tiempo a sus negocios. Cada proyecto que nos confía, cuenta con un mismo proceso de acuerdo a una rigurosa metodología de traductores, editores y correctores.</value>
   </data>
   <data name="HowDoWeWork_Header" xml:space="preserve">
     <value>Metodologia de Trabajo</value>
   </data>
   <data name="Services_Description" xml:space="preserve">
-    <value>Traducciones del inglés al español distintos documentos pertenecientes a las siguientes áreas:
+    <value>Contamos con experiencia que opera desde:
 &lt;ul&gt;
-	&lt;li&gt;Industria (Energía, Petróleo, Cosmética, Turismo, Farmacéutica, Construcción).&lt;/li&gt;
-	&lt;li&gt;Negocios (Comercio, Finanzas, Economía, Contable, Legal).&lt;/li&gt;
-	&lt;li&gt;Tecnología (Tecnología de la información, Aplicaciones para video juegos, Informática).&lt;/li&gt;
-	&lt;li&gt;Cultura (Moda, Viajes, Gastronomía, Música, Literatura).&lt;/li&gt;
-	&lt;li&gt;Ciencia (Medicina, Psicología, Arquitectura, Medio ambiente, Ciencias sociales).&lt;/li&gt;
-	&lt;li&gt;Periodismo&lt;/li&gt;
-&lt;/ul&gt;
-Nuestro compromiso total es satisfacer sus expectativas. Por lo tanto, nuestro objetivo es transmitir de manera precisa la información que desea comunicar. Para lograr este objetivo trabajamos con traductores especializados en cada área específica, además de someter cada texto traducido al siguiente proceso: traducción, edición y post-edición; y así, alcanzar los estándares de calidad en cada trabajo que se nos confía.</value>
+	&lt;li&gt;Traducciones de documentos médicos&lt;/li&gt;
+	&lt;li&gt;Traducciones de cartas&lt;/li&gt;
+	&lt;li&gt;Traducciones de documentos comercial&lt;/li&gt;
+	&lt;li&gt;Traducciones de materiales de marketing&lt;/li&gt;
+	&lt;li&gt;Traducciones de documentos legales&lt;/li&gt;
+	&lt;li&gt;Traducciones de moda y cosméticos&lt;/li&gt;
+	&lt;li&gt;Traducciones de documentos de tecnología de la información&lt;/li&gt;
+	&lt;li&gt;Traducciones técnicas&lt;/li&gt;
+&lt;/ul&gt;</value>
   </data>
   <data name="Services_Header" xml:space="preserve">
     <value>Servicios</value>
