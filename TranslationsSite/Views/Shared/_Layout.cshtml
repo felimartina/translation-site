@@ -4,9 +4,11 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
     <meta name="author" content="Felipe Martina">
-    <title>@Html.Raw(@TranslationsSite.Resources.Shared.General.CompanyName)</title>
+    @*Bing Metatag*@
+    <meta name="msvalidate.01" content="179A68E14A4B3C5C547ACB76D446682B" />
+    @RenderSection("PageMetaAttributes", required: false)
+    <title>@ViewBag.Title</title>
     @Styles.Render("~/content/startbootstrap")
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->

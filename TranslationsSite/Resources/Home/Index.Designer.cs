@@ -61,6 +61,15 @@ namespace TranslationsSite.Resources.Home {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Home.
+        /// </summary>
+        public static string Home_Title {
+            get {
+                return ResourceManager.GetString("Home_Title", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Our translators have extensive linguistic knowledge and translate solely and exclusively towards their source language.
         ///Our working mode is based on different tools and processes. Every project you entrust us follows the same process, in accordance with a rigorous methodology that guarantees an optimal result..
         /// </summary>
@@ -112,6 +121,15 @@ namespace TranslationsSite.Resources.Home {
         public static string Questions_Header {
             get {
                 return ResourceManager.GetString("Questions_Header", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to &lt;meta name=&quot;description&quot; lang=&quot;en&quot; content=&quot;Motus Translations is a company that provides translations services from English to Spanish and Spanish to English, as well as a variety of other different languages. At Motus Translations we provide full stack translation services including translation, edition, and proof-reading.&quot;&gt;.
+        /// </summary>
+        public static string Tag_Meta_Description {
+            get {
+                return ResourceManager.GetString("Tag_Meta_Description", resourceCulture);
             }
         }
     }

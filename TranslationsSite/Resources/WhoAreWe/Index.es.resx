@@ -138,12 +138,15 @@ Sus experiencias de viajes la ayudaron a emerger en el uso de la cultura e idiom
   <data name="RominaCastagno_Title" xml:space="preserve">
     <value>Traductora de Ingles</value>
   </data>
+  <data name="Tag_Meta_Description" xml:space="preserve">
+    <value>&lt;meta name="description" lang="es" content="Motus Traducciones es una empresa que provee servicios de traducción de Inglés a Español y Español a Inglés. Nuestro equipo esta compuesto por experimentados traductores que se esmeran en producir servicios de tranducción de alta calidad. En Motus Traducciones nos enfocamos en una eficiente Administración de Proyectos y Servicio al Cliente. Romina Castagno, nuestra traductora senior, es un profecional experimentado que ha participado en varios proyectos de traducción para diferentes industrias y en diferentes idiomas."&gt;</value>
+  </data>
   <data name="WhoAreWe_Description" xml:space="preserve">
     <value>&lt;strong&gt;Motus&lt;/strong&gt; es una empresa nueva de traducción con énfasis en una dedicada Gestión de Proyectos y en un excelente servicio de atención al cliente. Ofrecemos un rango de servicios amplio de traducción de documentos con exactitud, experiencia en industrias específicas y con una red global de comprensión de traductores expertos. 
 En Motus traducciones, los clientes cuentan con atención y servicio personalizado. La empresa brinda la seguridad de que cada proyecto, ya sea pequeño o grande, recibirá la misma atención. 
 Ofrecemos múltiples niveles de servicio basado en las necesidades de los clientes que pueden ser desde una traducción de un borrador/resumen hasta una traducción certificada y para lo cual se tiene en cuenta el proceso de tres pasos con un traductor, un editor y un corrector. Brindamos traducciones realizadas por un nativo y la edición y corrección realizada con un lingüista. También ofrecemos una revisión realizada por otro hablante nativo de la industria requerida. De hecho, cuando sea requerido, le enviaremos un presupuesto detallado que incluya el análisis del costo total.</value>
   </data>
-  <data name="WhoAreWe_Header" xml:space="preserve">
-    <value>Quienes Somos?</value>
+  <data name="WhoAreWe_Title" xml:space="preserve">
+    <value>¿Quiénes Somos?</value>
   </data>
 </root>

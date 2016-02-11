@@ -138,7 +138,7 @@
     <value>&lt;h3&gt;&lt;strong&gt;Working mode&lt;/strong&gt;&lt;/h3&gt;
 At Motus, we offer high-quality translation services that focus on the needs of your business. As part of our translation services we assign a dedicated team to pay special attention to your project. In essence, you can rest assured that your project is well attended to, leaving you free to devote more of your time to your business. Every project you entrust us follows the same process, in accordance with a rigorous methodology of Translators, Editors and Proof readers.</value>
   </data>
-  <data name="HowDoWeWork_Header" xml:space="preserve">
+  <data name="HowDoWeWork_Title" xml:space="preserve">
     <value>How do we work?</value>
   </data>
   <data name="Services_Description" xml:space="preserve">
@@ -156,5 +156,8 @@ At Motus, we offer high-quality translation services that focus on the needs of 
   </data>
   <data name="Services_Header" xml:space="preserve">
     <value>Services</value>
+  </data>
+  <data name="Tag_Meta_Description" xml:space="preserve">
+    <value>&lt;meta name="description" lang="en" content="Motus Translations is a company that provides translations services from English to Spanish and Spanish to English. All our jobs go through a standardized process that includes translation, edition, and proof-reading following ATA (American Translators Association) and AATI (American Translators Association) standards."&gt;</value>
   </data>
 </root>

@@ -369,6 +369,7 @@
     <Content Include="Content\themes\startbootstrap-modern-business-1.0.3\fonts\glyphicons-halflings-regular.ttf" />
     <Content Include="Content\themes\startbootstrap-modern-business-1.0.3\fonts\glyphicons-halflings-regular.woff" />
     <Content Include="Content\themes\startbootstrap-modern-business-1.0.3\fonts\glyphicons-halflings-regular.woff2" />
+    <None Include="Properties\PublishProfiles\FileDeployment.pubxml" />
     <None Include="Properties\PublishProfiles\FileSystemTranslationSite.pubxml" />
     <None Include="Scripts\jquery-1.11.0.intellisense.js" />
     <Content Include="Images\motus-logo-transparent.png" />

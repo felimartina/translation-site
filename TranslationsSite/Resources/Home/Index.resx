@@ -117,6 +117,9 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="Home_Title" xml:space="preserve">
+    <value>Home</value>
+  </data>
   <data name="HowDoWeWork_Description" xml:space="preserve">
     <value>Our translators have extensive linguistic knowledge and translate solely and exclusively towards their source language.
 Our working mode is based on different tools and processes. Every project you entrust us follows the same process, in accordance with a rigorous methodology that guarantees an optimal result.</value>
@@ -135,5 +138,8 @@ Our working mode is based on different tools and processes. Every project you en
   </data>
   <data name="Questions_Header" xml:space="preserve">
     <value>Suggestions</value>
+  </data>
+  <data name="Tag_Meta_Description" xml:space="preserve">
+    <value>&lt;meta name="description" lang="en" content="Motus Translations is a company that provides translations services from English to Spanish and Spanish to English, as well as a variety of other different languages. At Motus Translations we provide full stack translation services including translation, edition, and proof-reading."&gt;</value>
   </data>
 </root>

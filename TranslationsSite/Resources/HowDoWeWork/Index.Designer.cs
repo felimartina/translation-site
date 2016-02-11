@@ -114,9 +114,9 @@ namespace TranslationsSite.Resources.HowDoWeWork {
         /// <summary>
         ///   Looks up a localized string similar to How do we work?.
         /// </summary>
-        public static string HowDoWeWork_Header {
+        public static string HowDoWeWork_Title {
             get {
-                return ResourceManager.GetString("HowDoWeWork_Header", resourceCulture);
+                return ResourceManager.GetString("HowDoWeWork_Title", resourceCulture);
             }
         }
         
@@ -144,6 +144,15 @@ namespace TranslationsSite.Resources.HowDoWeWork {
         public static string Services_Header {
             get {
                 return ResourceManager.GetString("Services_Header", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to &lt;meta name=&quot;description&quot; lang=&quot;en&quot; content=&quot;Motus Translations is a company that provides translations services from English to Spanish and Spanish to English. All our jobs go through a standardized process that includes translation, edition, and proof-reading following ATA (American Translators Association) and AATI (American Translators Association) standards.&quot;&gt;.
+        /// </summary>
+        public static string Tag_Meta_Description {
+            get {
+                return ResourceManager.GetString("Tag_Meta_Description", resourceCulture);
             }
         }
     }

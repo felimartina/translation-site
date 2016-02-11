@@ -249,7 +249,7 @@ namespace TranslationsSite.Resources.GetQuote {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Get a Quote.
+        ///   Looks up a localized string similar to How do I get a free quote?.
         /// </summary>
         public static string GetQuote_Header {
             get {
@@ -258,11 +258,20 @@ namespace TranslationsSite.Resources.GetQuote {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to How do I get a free quote?.
+        ///   Looks up a localized string similar to Get a Quote.
         /// </summary>
         public static string GetQuote_Title {
             get {
                 return ResourceManager.GetString("GetQuote_Title", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to &lt;meta name=&quot;description&quot; lang=&quot;en&quot; content=&quot;Motus Translations is a company that provides translations services from English to Spanish and Spanish to English. Get a FREE quote now by simply answering few questions. You can get a free translation quote either by sending us the document to translate, or by specifying the project features and the count of words to translate.&quot;&gt;.
+        /// </summary>
+        public static string Tag_Meta_Description {
+            get {
+                return ResourceManager.GetString("Tag_Meta_Description", resourceCulture);
             }
         }
     }

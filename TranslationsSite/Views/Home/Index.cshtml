@@ -1,5 +1,8 @@
 ﻿@{
-    ViewBag.Title = "Home Page";
+    ViewBag.Title = string.Format("{0} - {1}", @TranslationsSite.Resources.Shared.General.CompanyName, @TranslationsSite.Resources.Home.Index.Home_Title);
+}
+@section PageMetaAttributes{
+    @Html.Raw(@TranslationsSite.Resources.Home.Index.Tag_Meta_Description)
 }
 @section Header{
     <header>
@@ -27,7 +30,7 @@
             </div>
             <div class="panel-body">
                 <p>@Html.Raw(@TranslationsSite.Resources.Home.Index.HowDoWeWork_Description)</p>
-                <a href="@Url.Action("HowDoWeWork", "Home")" class="btn btn-default">@Html.Raw(@TranslationsSite.Resources.Shared.General.LearnMore_Button)</a>
+                <a href="@Url.Action("Index", "HowDoWeWork")" class="btn btn-default">@Html.Raw(@TranslationsSite.Resources.Shared.General.LearnMore_Button)</a>
             </div>
         </div>
     </div>
@@ -38,7 +41,7 @@
             </div>
             <div class="panel-body">
                 <p>@Html.Raw(@TranslationsSite.Resources.Home.Index.HowMuchDoesItCost_Description)</p>
-                <a href="@Url.Action("GetQuote", "Home")" class="btn btn-default">@Html.Raw(@TranslationsSite.Resources.Shared.General.GetAFreeQuote_Button)</a>
+                <a href="@Url.Action("Index", "GetQuote")" class="btn btn-default">@Html.Raw(@TranslationsSite.Resources.Shared.General.GetAFreeQuote_Button)</a>
             </div>
         </div>
     </div>
@@ -52,7 +55,7 @@
                 @*<p>
 
                     </p>*@
-                <a href="@Url.Action("Contact", "Home")" class="btn btn-default">@Html.Raw(@TranslationsSite.Resources.Shared.General.ContactUs_Button)</a>
+                <a href="@Url.Action("Index", "ContactUs")" class="btn btn-default">@Html.Raw(@TranslationsSite.Resources.Shared.General.ContactUs_Button)</a>
             </div>
         </div>
     </div>

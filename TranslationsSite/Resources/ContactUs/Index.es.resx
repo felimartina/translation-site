@@ -120,7 +120,7 @@
   <data name="ContactDetails" xml:space="preserve">
     <value>Informacion de contacto</value>
   </data>
-  <data name="ContactUs_Header" xml:space="preserve">
+  <data name="ContactUs_Title" xml:space="preserve">
     <value>Contacto</value>
   </data>
   <data name="Form_Email" xml:space="preserve">
@@ -158,5 +158,8 @@
   </data>
   <data name="Form_Submit_Success" xml:space="preserve">
     <value>Hemos recibido su mensaje. Nos pondremos en contacto con usted dentro de las 48hs.</value>
+  </data>
+  <data name="Tag_Meta_Description" xml:space="preserve">
+    <value>&lt;meta name="description" lang="es" content="Motus Traducciones es una empresa que provee servicios de traducción de Inglés a Español y Español a Inglés. Estamos radicados en Córdoba, Argentina pero tambien operamos en Estados Unidos y otros países alrededor del mundo. Puede contactarnos a través de la sección de Contacto en nuestro sitio web, email a motustranslations@gmail, o bien puede llamarnos a cualquiera de nuestros números telefónicos +1 (253) 243-2338 or +54 9 3564 336421."&gt;</value>
   </data>
 </root>
