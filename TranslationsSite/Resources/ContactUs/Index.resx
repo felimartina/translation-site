@@ -124,12 +124,12 @@
     <value>motustranslations@gmail.com</value>
   </data>
   <data name="ContactDetails_Phone" xml:space="preserve">
-    <value>(111) 123-1234</value>
+    <value>+1 (253) 243-2338 / +54 9 3564 336421</value>
   </data>
   <data name="ContactDetails_WorkingHours" xml:space="preserve">
     <value>24/7</value>
   </data>
-  <data name="ContactUs_Header" xml:space="preserve">
+  <data name="ContactUs_Title" xml:space="preserve">
     <value>Contact Us</value>
   </data>
   <data name="Form_Email" xml:space="preserve">
@@ -167,5 +167,8 @@
   </data>
   <data name="Form_Submit_Success" xml:space="preserve">
     <value>We have received your message. One of our representatives will contact you within 48hs.</value>
+  </data>
+  <data name="Tag_Meta_Description" xml:space="preserve">
+    <value>&lt;meta name="description" lang="en" content="Motus Translations is a company that provides translations services from English to Spanish and Spanish to English. We are headquartered in Córdoba, Argentina but we also operate in United States and other countries around the world. You can contact us through the Contact section in our website, by sending an email to motustranslations@gmail.com, or by calling us to +1 (253) 243-2338 or +54 9 3564 336421."&gt;</value>
   </data>
 </root>

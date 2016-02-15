@@ -186,9 +186,12 @@
 Please, remember to specify your contact details, source and target language, delivery date and type of service.</value>
   </data>
   <data name="GetQuote_Header" xml:space="preserve">
-    <value>Get a Quote</value>
+    <value>How do I get a free quote?</value>
   </data>
   <data name="GetQuote_Title" xml:space="preserve">
-    <value>How do I get a free quote?</value>
+    <value>Get a Quote</value>
+  </data>
+  <data name="Tag_Meta_Description" xml:space="preserve">
+    <value>&lt;meta name="description" lang="en" content="Motus Translations is a company that provides translations services from English to Spanish and Spanish to English. Get a FREE quote now by simply answering few questions. You can get a free translation quote either by sending us the document to translate, or by specifying the project features and the count of words to translate."&gt;</value>
   </data>
 </root>

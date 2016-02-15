@@ -109,6 +109,15 @@ namespace TranslationsSite.Resources.WhoAreWe {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to &lt;meta name=&quot;description&quot; lang=&quot;en&quot; content=&quot;Motus Translations is a company that provides translations services from English to Spanish and Spanish to English. At Motus Translations we count with multiple skilled translators that strive to provide the best quality on our translation services. We are a company that places emphasis on dedicated Project Management and excellent customer service. Romina Castagno, our lead translator, is an experienced professional that has participated on multiple translation p [rest of string was truncated]&quot;;.
+        /// </summary>
+        public static string Tag_Meta_Description {
+            get {
+                return ResourceManager.GetString("Tag_Meta_Description", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to &lt;strong&gt;Motus&lt;/strong&gt; is a new translation company placing emphasis on dedicated Project Management and excellent customer service. We offer the widest range of document translation services with accuracy, industry-specific experience and a comprehensive network of knowledgeable translators.
         ///In Motus Translations, clients receive personal attention and service. The company ensures each project, big or small, is given equal attention. 
         ///We offer multiple levels of service based on client needs, ranging fro [rest of string was truncated]&quot;;.
@@ -122,9 +131,9 @@ namespace TranslationsSite.Resources.WhoAreWe {
         /// <summary>
         ///   Looks up a localized string similar to Who Are We?.
         /// </summary>
-        public static string WhoAreWe_Header {
+        public static string WhoAreWe_Title {
             get {
-                return ResourceManager.GetString("WhoAreWe_Header", resourceCulture);
+                return ResourceManager.GetString("WhoAreWe_Title", resourceCulture);
             }
         }
     }

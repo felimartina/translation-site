@@ -117,6 +117,9 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="Home_Title" xml:space="preserve">
+    <value>Inicio</value>
+  </data>
   <data name="HowDoWeWork_Description" xml:space="preserve">
     <value>Nuestros traductores poseen amplios conocimientos lingüísticos, están altamente especializados, y traducen única y exclusivamente hacia su lengua materna.
 Nuestro método de trabajo se basa en diferentes herramientas y procesos de traducción y cada proyecto que confía a nuestra empresa se somete a un riguroso proceso de calidad, cumpliendo con una metodología estricta, que garantiza un resultado óptimo.</value>
@@ -135,5 +138,8 @@ Nuestro método de trabajo se basa en diferentes herramientas y procesos de trad
   </data>
   <data name="Questions_Header" xml:space="preserve">
     <value>Sugerencias</value>
+  </data>
+  <data name="Tag_Meta_Description" xml:space="preserve">
+    <value>&lt;meta name="description" lang="es" content="Motus Traducciones es una empresa que provee servicios de traducción para todo tipo de idiomas. En Motus Traducciones somos especialistas en traducciones de Inglés a Español y Español a Inglés. Nuestros servicios incluyen tareas de traducción, edición y proof-reading."&gt;</value>
   </data>
 </root>

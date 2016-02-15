@@ -25,6 +25,9 @@ namespace TranslationsSite
             AuthConfig.RegisterAuth();
 
             BundleTable.EnableOptimizations = false;
+
+            //Hide X-AspNetMvc-Version Header (http://www.4guysfromrolla.com/articles/120209-1.aspx)
+            MvcHandler.DisableMvcResponseHeader = true;
         }
     }
 }

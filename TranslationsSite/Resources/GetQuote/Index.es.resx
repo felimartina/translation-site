@@ -185,9 +185,12 @@
 Recuerde especificar la información de contacto, lengua fuente y meta, fecha de envío y tipo de servicio.</value>
   </data>
   <data name="GetQuote_Header" xml:space="preserve">
-    <value>Solicitar Presupuesto</value>
+    <value>¿Cómo puedo recibir un presupuesto gratuito?</value>
   </data>
   <data name="GetQuote_Title" xml:space="preserve">
-    <value>¿Cómo puedo recibir un presupuesto gratuito?</value>
+    <value>Solicitar Presupuesto</value>
+  </data>
+  <data name="Tag_Meta_Description" xml:space="preserve">
+    <value>&lt;meta name="description" lang="es" content="Motus Traducciones es una empresa que provee servicios de traducción de Inglés a Español y Español a Inglés. Obtenga su presupuesto GRATUITO ahora mismo en 3 simples pasos. Usted puede obtener un presupuesto gratuito de traducción al enviarnos dicho documento o bien una especificación del tipo de proyecto y la cantidad de palabras a traducir."&gt;</value>
   </data>
 </root>

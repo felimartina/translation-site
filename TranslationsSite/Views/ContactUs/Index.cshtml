@@ -1,18 +1,20 @@
 ﻿@{
-    ViewBag.Title = "Contact Us";
+    ViewBag.Title = string.Format("{0} - {1}", @TranslationsSite.Resources.Shared.General.CompanyName, @TranslationsSite.Resources.ContactUs.Index.ContactUs_Title);
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
-
+@section PageMetaAttributes{
+    @Html.Raw(@TranslationsSite.Resources.ContactUs.Index.Tag_Meta_Description)
+}
 <div class="row">
     <div class="col-lg-12">
         <h1 class="page-header">
-            @Html.Raw(@TranslationsSite.Resources.ContactUs.Index.ContactUs_Header)
+            @Html.Raw(@TranslationsSite.Resources.ContactUs.Index.ContactUs_Title)
         </h1>
         <ol class="breadcrumb">
             <li>
                 <a href="@Url.Action("Index", "Home")">Home</a>
             </li>
-            <li class="active">@TranslationsSite.Resources.ContactUs.Index.ContactUs_Header</li>
+            <li class="active">@TranslationsSite.Resources.ContactUs.Index.ContactUs_Title</li>
         </ol>
     </div>
 </div>

@@ -138,12 +138,15 @@ Her traveling experiences helped her to be immersed into the real culture and la
   <data name="RominaCastagno_Title" xml:space="preserve">
     <value>English Translator</value>
   </data>
+  <data name="Tag_Meta_Description" xml:space="preserve">
+    <value>&lt;meta name="description" lang="en" content="Motus Translations is a company that provides translations services from English to Spanish and Spanish to English. At Motus Translations we count with multiple skilled translators that strive to provide the best quality on our translation services. We are a company that places emphasis on dedicated Project Management and excellent customer service. Romina Castagno, our lead translator, is an experienced professional that has participated on multiple translation projects that involve different industries and languages."&gt;</value>
+  </data>
   <data name="WhoAreWe_Description" xml:space="preserve">
     <value>&lt;strong&gt;Motus&lt;/strong&gt; is a new translation company placing emphasis on dedicated Project Management and excellent customer service. We offer the widest range of document translation services with accuracy, industry-specific experience and a comprehensive network of knowledgeable translators.
 In Motus Translations, clients receive personal attention and service. The company ensures each project, big or small, is given equal attention. 
 We offer multiple levels of service based on client needs, ranging from draft/summary translation up to certified translation, considering our three-step process with a translator, editor, and proofreader. We offer a Translation completed by a native speaker plus checking and proofreading by a linguist. We also provide you with a revision by another native speaker specializing in your industry. Moreover, when required, we will send you a detailed quote including a full cost breakdown.</value>
   </data>
-  <data name="WhoAreWe_Header" xml:space="preserve">
+  <data name="WhoAreWe_Title" xml:space="preserve">
     <value>Who Are We?</value>
   </data>
 </root>

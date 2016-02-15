@@ -79,7 +79,7 @@ namespace TranslationsSite.Resources.ContactUs {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to (111) 123-1234.
+        ///   Looks up a localized string similar to +1 (253) 243-2338 / +54 9 3564 336421.
         /// </summary>
         public static string ContactDetails_Phone {
             get {
@@ -99,9 +99,9 @@ namespace TranslationsSite.Resources.ContactUs {
         /// <summary>
         ///   Looks up a localized string similar to Contact Us.
         /// </summary>
-        public static string ContactUs_Header {
+        public static string ContactUs_Title {
             get {
-                return ResourceManager.GetString("ContactUs_Header", resourceCulture);
+                return ResourceManager.GetString("ContactUs_Title", resourceCulture);
             }
         }
         
@@ -210,6 +210,15 @@ namespace TranslationsSite.Resources.ContactUs {
         public static string Form_Submit_Success {
             get {
                 return ResourceManager.GetString("Form_Submit_Success", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to &lt;meta name=&quot;description&quot; lang=&quot;en&quot; content=&quot;Motus Translations is a company that provides translations services from English to Spanish and Spanish to English. We are headquartered in Córdoba, Argentina but we also operate in United States and other countries around the world. You can contact us through the Contact section in our website, by sending an email to motustranslations@gmail.com, or by calling us to +1 (253) 243-2338 or +54 9 3564 336421.&quot;&gt;.
+        /// </summary>
+        public static string Tag_Meta_Description {
+            get {
+                return ResourceManager.GetString("Tag_Meta_Description", resourceCulture);
             }
         }
     }
