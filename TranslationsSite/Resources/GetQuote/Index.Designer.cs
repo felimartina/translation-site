@@ -238,7 +238,7 @@ namespace TranslationsSite.Resources.GetQuote {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to If you already know the word count of your document or you have ithe document handy you can obtain a free quote by sending the form in this page.
+        ///   Looks up a localized string similar to If you already know the word count of your document or you have the document nearby you can obtain a free quote by sending the form from this page.
         ///&lt;br&gt;
         ///Please, remember to specify your contact details, source and target language, delivery date and type of service..
         /// </summary>

@@ -118,10 +118,10 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="OurTeam_Header" xml:space="preserve">
-    <value>Our Team</value>
+    <value></value>
   </data>
   <data name="RominaCastagno_Description" xml:space="preserve">
-    <value>Romina Castagno is a professional-grade human translator who provides document translation services from English into Spanish.
+    <value>Romina Castagno is a professional translator who provides document translation services from English into Spanish.
 She works with several specialization areas and a wide range of industries: Energy (oil, gas and alternative energy), Business, Software, Environment, Literature, Fashion, Games applications, among others. 
 She has done edition and proofreading (style, grammar, spelling) of translations for companies in India, USA, Europe, and Argentina. 
 Her tasks consist in working with platforms and tools provided by the agency itself, like Trados, Trados Studios 2009, Wordfast and the ones sent/created by clients.
