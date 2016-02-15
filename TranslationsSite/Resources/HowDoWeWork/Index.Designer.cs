@@ -61,12 +61,12 @@ namespace TranslationsSite.Resources.HowDoWeWork {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to &lt;ul&gt;
+        ///   Looks up a localized string similar to &lt;p&gt;&lt;ul&gt;
         ///                    &lt;li&gt;We do not divulge confidential information.&lt;/li&gt;
         ///                    &lt;li&gt;Our translation team and collaborators cannot disclose information acquired during the course of their assignments.&lt;/li&gt;
         ///                    &lt;li&gt;Our translation team and our company may only disclose information with the permission of our clients (or if the law requires disclosure).&lt;/li&gt;
         ///                &lt;/ul&gt;
-        ///                Our confidentiality principles are based on the following Codes of Ethics: ATA [rest of string was truncated]&quot;;.
+        ///                Our confidentiality principles are based on the following Codes of Ethics:  [rest of string was truncated]&quot;;.
         /// </summary>
         public static string Confidentiality_Description {
             get {
@@ -102,8 +102,7 @@ namespace TranslationsSite.Resources.HowDoWeWork {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to &lt;h3&gt;&lt;strong&gt;Working mode&lt;/strong&gt;&lt;/h3&gt;
-        ///At Motus, we offer high-quality translation services that focus on the needs of your business. As part of our translation services we assign a dedicated team to pay special attention to your project. In essence, you can rest assured that your project is well attended to, leaving you free to devote more of your time to your business. Every project you entrust us follows the same process, in accordance with a rigorous methodology of Translators, Editors and Proof reader [rest of string was truncated]&quot;;.
+        ///   Looks up a localized string similar to At Motus, we offer high-quality translation services that focus on the needs of your business. As part of our translation services we assign a dedicated team to pay special attention to your project. In essence, you can rest assured that your project is well attended to, leaving you free to devote more of your time to your business. Every project you entrust us follows the same process, in accordance with a rigorous methodology of Translators, Editors and Proof readers..
         /// </summary>
         public static string HowDoWeWork_Description {
             get {
@@ -121,7 +120,8 @@ namespace TranslationsSite.Resources.HowDoWeWork {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to We have experience that runs from:
+        ///   Looks up a localized string similar to &lt;p&gt;
+        ///We have experience that runs from:
         ///                &lt;ul&gt;
         ///                    &lt;li&gt;Medical document translations&lt;/li&gt;
         ///                    &lt;li&gt;Letter translations&lt;/li&gt;
@@ -130,7 +130,7 @@ namespace TranslationsSite.Resources.HowDoWeWork {
         ///                    &lt;li&gt;Legal documents translations&lt;/li&gt;
         ///                    &lt;li&gt;Fashion and cosmetics translations&lt;/li&gt;
         ///                    &lt;li&gt;IT documents translations&lt;/li&gt;
-        ///                    &lt;li&gt;Technical tra [rest of string was truncated]&quot;;.
+        ///                    &lt;li&gt;Technica [rest of string was truncated]&quot;;.
         /// </summary>
         public static string Services_Description {
             get {

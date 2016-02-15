@@ -4,8 +4,10 @@
 body {
     background-color: #EEF4E0;
     color: #646663;
-    text-align: justify;
     text-justify: inter-word;
+}
+p{
+    text-align: justify;
 }
 .navbar-inverse .navbar-brand, .navbar-inverse .navbar-nav>li>a {
     color: #7d5c68;
@@ -39,6 +41,7 @@ a, a:visited{
     padding-top: 20px;
     padding-bottom: 20px;
 }
+
 @media (min-width: 768px) {
   
 }

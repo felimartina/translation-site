@@ -70,7 +70,7 @@ namespace TranslationsSite.Resources.ContactUs {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to user@outlook.com.
+        ///   Looks up a localized string similar to motustranslations@gmail.com.
         /// </summary>
         public static string ContactDetails_Email {
             get {
